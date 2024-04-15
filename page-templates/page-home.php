@@ -14,7 +14,7 @@ get_header(); ?>
 			</div> -->
 			<div class="">
 				<div class="mx-auto pb-5">
-				<p class=" "> En 2024 + Encuentros + Talleres para noveles + Debates + Micro abierto + Hackaton + Proyectos + Lightning + Talleres avanzados + Brainstorms + Fan Zone + Oportunidad de negocio + Zona entrevistas + Merch + Presentaciones individuales + Arte Bitcoin + Actuaciones + Mucho +</p>
+				<p class=" "> En 2024 Encuentros + Talleres para noveles + Debates + Micro abierto + Hackaton + Proyectos + Lightning + Talleres avanzados + Brainstorms + Fan Zone + Oportunidad de negocio + Zona entrevistas + Merch + Presentaciones individuales + Arte Bitcoin + Actuaciones + Mucho +</p>
 				<p class="float__message-subtitle">¿Tienes un proyecto, quieres colaborar y/o quieres ser sponsor?<a class="my-button button__over-orange" href="https://forms.gle/sSQiVc6MjqVizUZL7">COLABORAR</a></p>
 			</div>
 		</div>
