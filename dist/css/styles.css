@@ -555,10 +555,10 @@ min-height: 400px;
 .hotizontal-slider__container {
 
     margin: 0;
+    padding: 0;
     padding-left: 140px;
     margin-bottom: 100px;
     margin-top: 10px;
-    padding: 0;
     width: 100vw !important;
 
     .lSSlideOuter{
