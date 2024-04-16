@@ -52,8 +52,8 @@
   
   <!-- fix CSS -->
 
-	<style type="text/css" media=screen">
-    .sponsor {
+	<style>
+    h2.sponsor {
       padding-top: 18rem !important;
       margin-top: 18rem !important;
     }
