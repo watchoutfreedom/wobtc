@@ -52,6 +52,10 @@
   
 <!-- fix CSS -->
 <style>
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
 
 h2.sponsor {
 	padding-left: 2rem !important;
@@ -73,6 +77,13 @@ h2.sponsor {
 
 .ponentes__section--padding {
 	padding-top: 0 !important;
+}
+
+h5 {
+    text-align: left !important;
+    font-size: 24px !important;
+    line-height: 34px !important;
+    font-weight: 200 !important;
 }
 </style>
 <!-- end fix css -->
