@@ -1385,11 +1385,6 @@ height: 250px !important;
   
     }
 
-    .ponentes__section {
-
-      padding: 7rem 0;
-  
-    }
 
     .offer__message {
 
@@ -1775,4 +1770,12 @@ body {
 @keyframes a-ltr-before{
   0% {transform: translateX(0)}
   100% {transform: translateX(200%)}
+}
+
+/* fix */
+
+.ponentes__section {
+
+  padding: 7rem 0;
+
 }
