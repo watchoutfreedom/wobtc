@@ -20,15 +20,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<div class="background-image parallax--ponentes parallax position-relative bg">
-			<div class=" ">
-				<div class="row border-top">
-					<div class="slogan__title-section slogan" id="ponentes">
-					</div>
-				</div>
-			</div>
-	</div>
-	<div class="background-image parallax--ponentes parallax position-relative bg">
+	<div class="background-image parallax--sponsors parallax position-relative bg">
 			<div class=" ">
 				<div class="row border-top">
 					<div class="slogan__title-section slogan" id="ponentes">
