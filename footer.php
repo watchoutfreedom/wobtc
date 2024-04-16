@@ -9,6 +9,12 @@
 
 ?>
 
+<style>
+.sponsor {
+	padding-top: 8.5rem !important;
+}
+</style>
+
 <footer class="footer">
 	<div class="container-lg text-white stand">
 		<div class="row text-white">
