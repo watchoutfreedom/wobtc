@@ -20,51 +20,6 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
-
-<div class="background-image--middle3 parallax--sponsors parallax position-relative">
-		<div class="container-lg">
-			<div class="row border-top">
-				<div class="col-md-12" id="sponsors">
-					<h2>Sponsors '24</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid hotizontal-slider__section sponsors ponentes__section">
-		<div class="hotizontal-slider__container">
-		<div id="partners_anchor"></div>
-
-			<div id="sponsors" class="wrapper5">
-				<?php 	
-					$args = array(
-						'post_type' => 'sponsor',
-						'posts_per_page' => -1
-					);
-
-					$sponsors = get_posts($args);
-					if ($sponsors): 
-						foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-							<div class="slide box5">
-								<div class="single">
-									<a href="<?php echo get_field("url",$sponsor->ID) ?>" class="text-decoration-none text-dark" target="_blank">
-										<img class="img-fluid img-thumbnail wob-thumbnail" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" >
-										<h5>
-												<?php echo $sponsor->post_title ?>
-										</h5>
-									</a>
-								</div>
-							</div>
-						<?php endforeach;
-						wp_reset_postdata();
-					endif;?>
-
-			</div>
-			<div class=" col-md-12 mx-auto my-auto px-5 py-5">
-				<a href="mailto:sponsor@wobitcoin.org" target="_blank" class="button my-button button__over-orange">Unirme como Sponsor'24</a class="button">
-			</div>
-		</div>
-	</div>
-
 <div class="background-image parallax--ponentes parallax position-relative bg">
 		<div class=" ">
 			<div class="row border-top">
@@ -162,6 +117,49 @@ get_header(); ?>
 	</div>
 	*/?>
 
+	<div class="background-image--middle3 parallax--sponsors parallax position-relative">
+		<div class="container-lg">
+			<div class="row border-top">
+				<div class="col-md-12" id="sponsors">
+					<h2>Sponsors '24</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid hotizontal-slider__section sponsors ponentes__section">
+		<div class="hotizontal-slider__container">
+		<div id="partners_anchor"></div>
+
+			<div id="sponsors" class="wrapper5">
+				<?php 	
+					$args = array(
+						'post_type' => 'sponsor',
+						'posts_per_page' => -1
+					);
+
+					$sponsors = get_posts($args);
+					if ($sponsors): 
+						foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
+							<div class="slide box5">
+								<div class="single">
+									<a href="<?php echo get_field("url",$sponsor->ID) ?>" class="text-decoration-none text-dark" target="_blank">
+										<img class="img-fluid img-thumbnail wob-thumbnail" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" >
+										<h5>
+												<?php echo $sponsor->post_title ?>
+										</h5>
+									</a>
+								</div>
+							</div>
+						<?php endforeach;
+						wp_reset_postdata();
+					endif;?>
+
+			</div>
+			<div class=" col-md-12 mx-auto my-auto px-5 py-5">
+				<a href="mailto:sponsor@wobitcoin.org" target="_blank" class="button my-button button__over-orange">Unirme como Sponsor'24</a class="button">
+			</div>
+		</div>
+	</div>
 	<?php /*
 	<div class="background-image--middle3 parallax--sponsors parallax position-relative" >
 		<div class="container-lg">
