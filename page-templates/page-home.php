@@ -23,7 +23,7 @@ get_header(); ?>
 <div class="background-image parallax--ponentes parallax position-relative bg">
 		<div class=" ">
 			<div class="row border-top">
-				<div class="slogan__title-section slogan" id="ponentes_anchor">
+				<div class="slogan__title-section slogan" id="ponentes">
 					Edición 2023
 				</div>
 			</div>
@@ -120,7 +120,7 @@ get_header(); ?>
 	<div class="background-image--middle3 parallax--sponsors parallax position-relative">
 		<div class="container-lg">
 			<div class="row border-top">
-				<div class="col-md-12" id="sponsors_anchor">
+				<div class="col-md-12" id="sponsors">
 					<h2>Sponsors '24</h2>
 				</div>
 			</div>
@@ -257,7 +257,7 @@ get_header(); ?>
 
 <div class="container-lg">
 	<div class="row ">
-		<div class="col-md-12 pt-5 pb-5" id="contacto_anchor">
+		<div class="col-md-12 pt-5 pb-5" id="contacto">
 			<div class="mb-5">
 				<div class="square"></div>
 				<h2>Contacto</h2>
