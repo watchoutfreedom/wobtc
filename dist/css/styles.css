@@ -556,9 +556,9 @@ min-height: 400px;
 
     margin: 0;
     padding: 0;
-    padding-left: 140px;
     margin-bottom: 100px;
     margin-top: 10px;
+    color: #f6f6f6;
     width: 100vw !important;
 
     .lSSlideOuter{
