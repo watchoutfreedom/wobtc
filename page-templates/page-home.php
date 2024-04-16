@@ -275,5 +275,14 @@ get_header(); ?>
 </div>
 </div>
 
+<!-- fix CSS -->
+
+<style type="text/css" media=screen">
+.sponsor {
+	padding-top: 8.5rem !important;
+}
+</style>
+
+<!-- end fix css -->
 
 <?php get_footer(); ?>
