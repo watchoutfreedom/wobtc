@@ -48,6 +48,19 @@
 
 </footer>
 <?php wp_footer(); ?>
+
+  
+  <!-- fix CSS -->
+
+	<style type="text/css" media=screen">
+    .sponsor {
+      padding-top: 18rem !important;
+      margin-top: 18rem !important;
+    }
+    </style>
+
+    <!-- end fix css -->
+
 </body>
 
 </html>

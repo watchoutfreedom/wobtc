@@ -70,18 +70,6 @@
 
   <?php wp_head(); ?>
 
-  
-  <!-- fix CSS -->
-
-    <style type="text/css" media=screen">
-    .sponsor {
-      padding-top: 18rem !important;
-      margin-top: 18rem !important;
-    }
-    </style>
-
-    <!-- end fix css -->
-
 </head>
 
 <body <?php body_class(); ?>>
