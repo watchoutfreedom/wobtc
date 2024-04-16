@@ -14,7 +14,7 @@ get_header(); ?>
 			</div> -->
 			<div class="">
 				<div class="mx-auto pb-5">
-				<p class=" "> En 2024 Encuentros + Talleres para noveles + Debates + Micro abierto + Hackaton + Proyectos + Lightning + Talleres avanzados + Brainstorms + Fan Zone + Oportunidad de negocio + Zona entrevistas + Merch + Presentaciones individuales + Arte Bitcoin + Actuaciones + Mucho +</p>
+				<p class=" "> En 2024 + Encuentros + Talleres para noveles + Debates + Micro abierto + Hackaton + Proyectos + Lightning + Talleres avanzados + Brainstorms + Fan Zone + Oportunidad de negocio + Zona entrevistas + Merch + Presentaciones individuales + Arte Bitcoin + Actuaciones + Mucho +</p>
 				<p class="float__message-subtitle">¿Tienes un proyecto, quieres colaborar y/o quieres ser sponsor?<a class="my-button button__over-orange" href="https://forms.gle/sSQiVc6MjqVizUZL7">COLABORAR</a></p>
 			</div>
 		</div>
@@ -67,12 +67,12 @@ get_header(); ?>
 		</div>
 	
 	</div>
-
-<div class="background-image parallax--mini-title parallax position-relative bg">
+	<?php /*
+	<div class="background-image parallax--mini-title parallax position-relative bg">
 		<div class="container-lg ">
 			<div class="row border-top">
 				<div class="" id="ponentes_anchor">
-					<h2>Ponentes en años anteriores</h2>
+					<h2>Ponentes '24</h2>
 				</div>
 			</div>
 		</div>
@@ -115,13 +115,13 @@ get_header(); ?>
 		</div>
 	
 	</div>
-
+	*/?>
 
 	<div class="background-image--middle3 parallax--sponsors parallax position-relative">
 		<div class="container-lg">
 			<div class="row border-top">
 				<div class="col-md-12" id="sponsors_anchor">
-					<h2>Sponsors '23</h2>
+					<h2>Sponsors '24</h2>
 				</div>
 			</div>
 		</div>
@@ -160,22 +160,21 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-
-
+	<?php /*
 	<div class="background-image--middle3 parallax--sponsors parallax position-relative" >
 		<div class="container-lg">
 			<div class="row border-top">
 				<div class="col-md-12">
-					<h2>Partners '23</h2>
+					<h2>Partners '24</h2>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<div class="container-lg sponsors hotizontal-slider__section hotizontal-slider__container ponentes__section">
 		<div class="hotizontal-slider__container">
 			<div id="partners" class="wrapper6">
 				<?php 
+					
 					$args = array(
 						'post_type' => 'partners',
 						'posts_per_page' => -1
@@ -204,7 +203,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-
+	*/?>
 	<div class="background-image parallax--mini-title parallax position-relative bg">
 		<div class="container-lg">
 			<div class="row border-top">
