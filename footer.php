@@ -9,11 +9,15 @@
 
 ?>
 
-<style>
+<!-- fix CSS -->
+
+<style type="text/css" media=screen">
 .sponsor {
 	padding-top: 8.5rem !important;
 }
 </style>
+
+<!-- end fix css -->
 
 <footer class="footer">
 	<div class="container-lg text-white stand">
