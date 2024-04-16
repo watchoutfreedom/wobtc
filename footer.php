@@ -65,6 +65,11 @@ h2.sponsor {
 .border-top {
 	border: 0 !important;
 }
+
+.footer {
+	padding: 3rem 0 !important;
+	min-height: 0 !important;
+}
 </style>
 <!-- end fix css -->
 
