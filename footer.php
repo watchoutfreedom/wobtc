@@ -62,6 +62,9 @@ h2.sponsor {
 	padding: 7rem 0 0 0 !important;
 }
 
+.border-top {
+	border: 0 !important;
+}
 </style>
 <!-- end fix css -->
 
