@@ -1771,15 +1771,3 @@ body {
   0% {transform: translateX(0)}
   100% {transform: translateX(200%)}
 }
-
-/* fix */
-
-.ponentes__section {
-
-  padding: 7rem 0 !important;
-
-}
-
-.sponsor {
-  padding-top: 9rem !important;
-}

@@ -50,16 +50,20 @@
 <?php wp_footer(); ?>
 
   
-  <!-- fix CSS -->
+<!-- fix CSS -->
+<style>
 
-	<style>
-    h2.sponsor {
-      padding-left: 2rem !important;
-      padding-top: 4rem!important;
-    }
-    </style>
+h2.sponsor {
+	padding-left: 2rem !important;
+	padding-top: 4rem!important;
+}
 
-    <!-- end fix css -->
+.ponentes__section {
+	padding: 7rem 0 0 0 !important;
+}
+
+</style>
+<!-- end fix css -->
 
 </body>
 
