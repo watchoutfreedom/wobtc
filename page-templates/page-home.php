@@ -154,7 +154,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid seccion__texto sponsors ponentes ponentes__section">
+	<div class="container-fluid seccion__texto sponsors ponentes ponentes__section ponentes__section--padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center py-5 gallery">

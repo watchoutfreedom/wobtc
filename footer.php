@@ -70,6 +70,10 @@ h2.sponsor {
 	padding: 3rem 0 !important;
 	min-height: 0 !important;
 }
+
+.ponentes__section--padding {
+	padding-top: 0 !important;
+}
 </style>
 <!-- end fix css -->
 
