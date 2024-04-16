@@ -33,7 +33,6 @@ get_header(); ?>
 		<div class="container-lg">
 			<div class="row border-top">
 				<div class="col-md-12" id="sponsors">
-					<h2>Sponsors '24</h2>
 				</div>
 			</div>
 		</div>
