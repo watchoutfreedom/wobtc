@@ -280,6 +280,7 @@ get_header(); ?>
 <style type="text/css" media=screen">
 .sponsor {
 	padding-top: 8.5rem !important;
+	background-color: red;
 }
 </style>
 
