@@ -24,7 +24,14 @@ get_header(); ?>
 			<div class=" ">
 				<div class="row border-top">
 					<div class="slogan__title-section slogan" id="ponentes">
-						Premium Sponsors '24
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="background-image parallax--ponentes parallax position-relative bg">
+			<div class=" ">
+				<div class="row border-top">
+					<div class="slogan__title-section slogan" id="ponentes">
 					</div>
 				</div>
 			</div>
