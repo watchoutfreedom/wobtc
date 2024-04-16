@@ -101,10 +101,7 @@
 		  	<a class="nav-link"  href="#entradas">Entradas</a>
           </li>
 		  <li class="nav-item" >
-		  	<a class="nav-link"  href="#ponentes_anchor">Ponentes 22/23</a>
-          </li>
-		  <li class="nav-item" >
-		  	<a class="nav-link"  href="#sponsors_anchor">Sponsors'23</a>
+		  	<a class="nav-link"  href="#sponsors">Sponsors'24</a>
           </li>
 		  <li class="nav-item" >
 		  	<a class="nav-link"  href="#tienda_anchor">Tienda</a>
@@ -113,7 +110,7 @@
 		  	<a class="nav-link"  href="#comunidad">Red</a>
           </li>
 		  <li class="nav-item" >
-		  	<a class="nav-link"  href="#contacto_anchor">Contacto</a>
+		  	<a class="nav-link"  href="#contacto">Contacto</a>
           </li>
         </ul>
 		<div class="social-nav">
