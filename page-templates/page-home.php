@@ -29,17 +29,10 @@ get_header(); ?>
 			</div>
 	</div>
 
-	<div class="background-image--middle3 parallax--sponsors parallax position-relative">
-		<div class="container-lg">
-			<div class="row border-top">
-				<div class="col-md-12" id="sponsors">
-					<h2>Sponsors '24</h2>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="container-fluid hotizontal-slider__section sponsors ponentes__section">
 		<div class="hotizontal-slider__container">
+		<h2 class="sponsor">Sponsors '24</h2>
+
 		<div id="partners_anchor"></div>
 
 			<div id="sponsors" class="wrapper5">
