@@ -9,6 +9,17 @@
 
 ?>
 
+<!-- fix CSS -->
+
+<style type="text/css" media=screen">
+.sponsor {
+	padding-top: 8.5rem !important;
+	background-color: red;
+}
+</style>
+
+<!-- end fix css -->
+
 <footer class="footer">
 	<div class="container-lg text-white stand">
 		<div class="row text-white">
