@@ -99,6 +99,10 @@ h5 {
 	flex: 0 1 50%;
 }
 
+.youtube__wrap  iframe:nth-child(odd) {
+	margin-right: 24px;
+}
+
 </style>
 <!-- end fix css -->
 
