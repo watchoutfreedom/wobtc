@@ -31,7 +31,7 @@ get_header(); ?>
 
 	<div class="container-fluid hotizontal-slider__section sponsors ponentes__section">
 		<div class="hotizontal-slider__container">
-		<h2 class="sponsor">Sponsors '24</h2>
+		<h2 class="sponsor">Sponsor '24</h2>
 
 		<div id="partners_anchor"></div>
 
