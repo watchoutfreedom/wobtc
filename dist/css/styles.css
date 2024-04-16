@@ -558,8 +558,7 @@ min-height: 400px;
     padding: 0;
     margin-bottom: 100px;
     margin-top: 10px;
-    background-color: red;
-    color: red;
+    color: white;
     width: 100vw !important;
 
     .lSSlideOuter{
