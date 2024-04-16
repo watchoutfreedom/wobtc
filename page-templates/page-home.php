@@ -208,6 +208,14 @@ get_header(); ?>
 		</div>
 	</div>
 	*/?>
+	<div class="youtube video">
+		<div class="youtube__wrap">
+		<iframe width=""560 height="315" src="https://www.youtube.com/embed/Fy05-P2xakw?si=PAh3IlFO0oOQam8s&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<iframe width=""560 height="315" src="https://www.youtube.com/embed/06efjHgp62Q?si=PAh3IlFO0oOQam8s&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<iframe width=""560 height="315" src="https://www.youtube.com/embed/F5fjW8IqJlw?si=PAh3IlFO0oOQam8s&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<iframe width=""560 height="315" src="https://www.youtube.com/embed/SAoUcpMJhtI?si=PAh3IlFO0oOQam8s&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+	</div>
 	<div class="background-image parallax--mini-title parallax position-relative bg">
 		<div class="container-lg">
 			<div class="row border-top">
