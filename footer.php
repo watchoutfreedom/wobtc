@@ -85,6 +85,20 @@ h5 {
     line-height: 34px !important;
     font-weight: 200 !important;
 }
+
+.youtube.video {
+    padding: 84px;
+}
+
+.youtube__wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.youtube__wrap  iframe {
+	flex: 0 1 50%;
+}
+
 </style>
 <!-- end fix css -->
 
