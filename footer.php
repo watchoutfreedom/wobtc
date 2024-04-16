@@ -54,8 +54,8 @@
 
 	<style>
     h2.sponsor {
-      padding-top: 18rem !important;
-      margin-top: 18rem !important;
+      padding-left: 2rem !important;
+      padding-top: 4rem!important;
     }
     </style>
 
