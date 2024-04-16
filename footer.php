@@ -96,7 +96,7 @@ h5 {
 }
 
 .youtube__wrap  iframe {
-	flex: 0 1 calc(50% - 16px);
+	flex: 0 1 calc(50% - 32px);
 	margin: 16px;
 }
 
