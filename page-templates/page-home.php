@@ -145,7 +145,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center py-5 gallery">
-					<p class="texto__parrafo">En 2023, WOB creció con unas instalaciones únicas y multiplicó las oportunidades de encuentro entre los asistentes. Más de 300 personas se dieron cita en 3 días de actividades que mostraron la riqueza del pensamiento sobre Bitcoin en la comunidad hispana.</p>
+					<p class="texto__parrafo">En 2023,WOB creció con unas instalaciones únicas y multiplicó las oportunidades de encuentro entre los asistentes. Más de 300 personas se dieron cita en 3 días de actividades que mostraron la riqueza del pensamiento sobre Bitcoin en la comunidad hispana.</p>
 				</div>
 			</div>
 		</div>
