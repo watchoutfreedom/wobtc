@@ -96,11 +96,8 @@ h5 {
 }
 
 .youtube__wrap  iframe {
-	flex: 0 1 50%;
-}
-
-.youtube__wrap  iframe:nth-child(odd) {
-	margin-right: 24px;
+	flex: 0 1 calc(50% - 16px);
+	margin: 16px;
 }
 
 </style>
