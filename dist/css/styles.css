@@ -42,7 +42,7 @@
   font-family: cocogoose;
   src: url("../fonts/cocogoose-light.ttf");
   font-style: normal;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-display: swap;
 }
 .fade {
