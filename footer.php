@@ -83,7 +83,8 @@ h5 {
     text-align: left !important;
     font-size: 24px !important;
     line-height: 34px !important;
-    font-weight: 200 !important;
+	font-family: Noto Sans, sans-serif !important;
+    /* font-weight: 200 !important; */
 }
 
 .youtube.video {
