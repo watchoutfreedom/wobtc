@@ -71,10 +71,13 @@ body h1,
 body h2,
 body h3,
 body h4,
+body h5,
+body h6,
 button {
   font-weight: 800;
 	font-family: 'cocogoose', sans-serif !important;
 }
+
 
 .background {
 
