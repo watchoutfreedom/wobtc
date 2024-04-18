@@ -78,9 +78,7 @@ get_header(); ?>
 	</div>
 	<div class="container-fluid hotizontal-slider__section sponsors ponentes ponentes__section">
 		<div class="hotizontal-slider__container">
-			<div class="col-md-12 mx-auto my-auto px-5  py-5">
-				<a href="mailto:info@wobitcoin.org" target="_blank" class="button my-button button__over-orange">Proponer ponente'24</a class="button">
-			</div>
+	
 			<div id="ponentes" class="wrapper1 " >
 				<?php 
 				$args = array(
