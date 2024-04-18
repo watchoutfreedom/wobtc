@@ -66,7 +66,7 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<?php /*
+
 	<div class="background-image parallax--mini-title parallax position-relative bg">
 		<div class="container-lg ">
 			<div class="row border-top">
@@ -114,7 +114,6 @@ get_header(); ?>
 		</div>
 	
 	</div>
-	*/?>
 
 
 	<div class="background-image parallax--ponentes parallax position-relative bg">
