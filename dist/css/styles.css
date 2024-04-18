@@ -76,13 +76,6 @@ button {
 	font-family: 'cocogoose', sans-serif !important;
 }
 
-body h5,
-body h6,
-button {
-  font-weight: 600;
-	font-family: 'Noto Sans', sans-serif !important;
-}
-
 .background {
 
 overflow-x: hidden;
