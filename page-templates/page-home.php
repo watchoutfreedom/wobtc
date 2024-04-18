@@ -1,7 +1,7 @@
 <?php
 /**
 * Template Name: Home
-*
+* teste
 */
 
 get_header(); ?>
