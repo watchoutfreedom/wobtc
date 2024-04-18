@@ -145,7 +145,7 @@
 
 					<p class=" slogan orange">Un nuevo camino, para pensar juntos.</p>	
 					<!-- <h1 class=" fs-2 pt-5 orange">No one thinks about Bitcoin like you do.</h1> -->
-					<p class="slogan__sub">Descubre, aprende y comparte de la mano de expertos -y no tan expertos- en el evento referencia sobre Bitcoin en español.</p>
+					<p class="slogan__sub">Descubre, aprende y comparte de la mano de especialistas de diferentes disciplinas en el evento referencia sobre Bitcoin en español.</p>
 					<!-- <p class="orange">Learn, share, improve, and collaborate hand in hand with the best known in the Hispanic world and beyond.</p> -->
 					<a class="my-button btc " href="https://www.tickettailor.com/events/wobitcoin/1176670">
 						ENTRADAS EN EUROS
