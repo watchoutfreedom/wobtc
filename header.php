@@ -143,7 +143,7 @@
 				<div id="entradas" class="pb-5 home-title">
 					<div class="slogan__pre">27, 28 y 29 de septiembre // Espacio Pablo VI, Madrid</div>	
 
-					<p class=" slogan orange">Un nuevo camino, para pensar juntos.</p>	
+					<p class=" slogan orange">¡Hola! Un nuevo camino, para pensar juntos.</p>	
 					<!-- <h1 class=" fs-2 pt-5 orange">No one thinks about Bitcoin like you do.</h1> -->
 					<p class="slogan__sub">Descubre, aprende y comparte de la mano de especialistas de diferentes disciplinas en el evento referencia sobre Bitcoin en español.</p>
 					<!-- <p class="orange">Learn, share, improve, and collaborate hand in hand with the best known in the Hispanic world and beyond.</p> -->
