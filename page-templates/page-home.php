@@ -161,7 +161,7 @@ get_header(); ?>
 		</div>
 	
 	</div>
-	<?php /*
+	
 	<div class="background-image--middle3 parallax--sponsors parallax position-relative" >
 		<div class="container-lg">
 			<div class="row border-top">
@@ -204,7 +204,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	*/?>
+	
 	<div class="youtube video">
 		<div class="youtube__wrap">
 		<iframe width=""560 height="315" src="https://www.youtube.com/embed/Fy05-P2xakw?si=PAh3IlFO0oOQam8s&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
