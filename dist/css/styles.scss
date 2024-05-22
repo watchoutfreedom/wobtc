@@ -3,6 +3,10 @@
 ---
 @charset "utf-8";
 
-// Obligatory 
+// Basic 
+@import 'partial/reset';
+@import 'partial/breakpoints';
 @import 'partial/fonts';
 @import 'partial/colors';
+
+// Theme
