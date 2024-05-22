@@ -17,12 +17,6 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel='dns-prefetch' href='//polyfill.io' />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -67,9 +61,8 @@
     }
     </script>
 
-
-  <?php wp_head(); ?>
-
+    <link rel="stylesheet" href="<?php bloginfo( template_directory ); ?>/assets/scss/main.css" as="styles">
+    <!-- new theme -->
 </head>
 
 <body <?php body_class(); ?>>
