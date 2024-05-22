@@ -10,110 +10,15 @@
 ?>
 
 <footer class="footer">
-	<div class="container-lg text-white stand">
-		<div class="row text-white">
-				<div class="col-md-6">
 
-    
+<ul class="list-unstyled">
+	<li><a href="https://www.dropbox.com/s/hne3v5kbrarcy0v/POL%C3%8DTICA%20DE%20PRIVACIDAD-wof.pdf?raw=1">Legal</a></li>
+	<li><a href="https://www.dropbox.com/sh/epzwd8b0afvmz7s/AADfB-Zrhpg5Mf0v1Wlp7nRfa?dl=0&preview=cod_etico_wof_2022_00.pdf">Carta principios</a></li>
+	<!-- <li><a href="https://www.dropbox.com/scl/fo/satm83lvjqfouww8j3de3/h?rlkey=qxtj791qe83j0z7txi2st22nv&dl=0">Prensa</a></li> -->
+</ul>
 
-					<ul class="list-unstyled">
-						<li><a href="https://twitter.com/Wo_Bitcoin">Twitter</a></li>
-						<li><a href="https://instagram.com/Wo_Bitcoin">Instagram</a></li>
-						<li><a href="https://t.me/WoBitcoin">Telegram</a></li>
-						<li><a href="https://help.wobitcoin.org/Explore#?zoom=5&lat=40.2476&lng=-3.5713">Mapa colaborativo</a></li>
-						<li><a href="https://www.youtube.com/@WOBitcoin">Youtube</a></li>
-
-					</ul>
-					
-				</div>
-				<div class="col-md-6">
-					<ul class="list-unstyled">
-						<li><a href="https://www.dropbox.com/s/hne3v5kbrarcy0v/POL%C3%8DTICA%20DE%20PRIVACIDAD-wof.pdf?raw=1">Legal</a></li>
-						<li><a href="https://www.dropbox.com/sh/epzwd8b0afvmz7s/AADfB-Zrhpg5Mf0v1Wlp7nRfa?dl=0&preview=cod_etico_wof_2022_00.pdf">Carta principios</a></li>
-						<!-- <li><a href="https://www.dropbox.com/scl/fo/satm83lvjqfouww8j3de3/h?rlkey=qxtj791qe83j0z7txi2st22nv&dl=0">Prensa</a></li> -->
-					</ul>
-				</div>
-			</div>
-			
-		</div> 
-		<div class="row baseline-content firma">
-			<div class="col-md-12">
-				<div class="float-end">
-					<span class="text-white"><a href="https://watchoutfreedom.com">Watch Out, Bitcoin!</a></span>
-					<img class="img-fluid footer__logo" width="70" src="<?php echo get_theme_file_uri() ?>/dist/img/icon-footer.png"" alt="">
-				</div>
-			</div>
-		</div> 
-	</div>
-
-</footer>
 <?php wp_footer(); ?>
 
-  
-<!-- fix CSS -->
-<style>
-body {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-}
-
-h2.sponsor {
-	padding-left: 2rem !important;
-	padding-top: 4rem!important;
-}
-
-.ponentes__section {
-	padding: 7rem 0 0 0 !important;
-}
-
-.border-top {
-	border: 0 !important;
-}
-
-.footer {
-	padding: 3rem 0 !important;
-	min-height: 0 !important;
-}
-
-.ponentes__section--padding {
-	padding-top: 0 !important;
-}
-
-h5 {
-    text-align: left !important;
-    font-size: 24px !important;
-    line-height: 34px !important;
-	font-family: Noto Sans, sans-serif !important;
-    /* font-weight: 200 !important; */
-}
-
-.youtube.video {
-    padding: 24px;
-}
-
-.youtube__wrap {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.youtube__wrap  iframe {
-	flex: 0 1 100%;
-	margin-bottom: 16px;
-}
-
-@media (min-width: 850px) {
-	.youtube.video {
-    padding: 84px;
-	}
-
-  .youtube__wrap  iframe {
-		flex: 0 1 calc(50% - 32px);
-		margin: 16px;
-	}
-}
-
-</style>
-<!-- end fix css -->
 
 </body>
 
