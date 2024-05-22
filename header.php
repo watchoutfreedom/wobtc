@@ -136,7 +136,6 @@
 	<div class="text-white welcome__section">
 		<div class="title__container column d-flex">
 			<div class="header__logo">
-				<div class="offer__message">¡Periodo Early Bird!</div>
 				<img class="img-fluid  header__logo--img pt-5" src="<?php echo get_theme_file_uri() ?>/dist/img/wob24_final_00.png" alt="">
 			</div>
 			<div class="col-md-5 d-flex">
