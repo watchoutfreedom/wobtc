@@ -61,8 +61,9 @@
     }
     </script>
 
-    <link rel="stylesheet" href="<?php bloginfo( template_url ); ?>/assets/scss/main.css" as="styles">
-    <!-- new theme -->
+
+  <?php <!-- wp_head(); --> ?>  */
+
 </head>
 
 <body <?php body_class(); ?>>
