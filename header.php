@@ -61,7 +61,7 @@
     }
     </script>
 
-    <link rel="stylesheet" href="<?php bloginfo( template_directory ); ?>/assets/scss/main.css" as="styles">
+    <link rel="stylesheet" href="<?php bloginfo( template_url ); ?>/assets/scss/main.css" as="styles">
     <!-- new theme -->
 </head>
 
