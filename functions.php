@@ -66,36 +66,6 @@ require_once( 'library/gutenberg.php' );
  * WordPress admin customisation
  */
 function my_login_logo() { ?>
-	<style type="text/css">
-
-		html {
-			background: #f6f6f6;
-		}
-
-		body.login div#login h1 a {
-			/* background: url(<?php echo get_bloginfo( 'template_directory' ) ?>/assets/images/theme/medelalogo.svg) no-repeat !important;*/
-			padding-bottom: 0;
-			background-size: 300px 57px;
-			height: 57px;
-			margin: 0 auto 25px;
-			width: 300px;
-		}
-
-		body.login {
-			/* background: #000 url(<?php echo get_bloginfo( 'template_directory' ) ?>/assets/images/theme/splash-screen.jpg) no-repeat !important;*/
-			background-size: cover !important;
-			background-position: 50% !important;
-			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-			font-weight: 300;
-			color: #757474;
-		}
-
-		body #login {
-			position: relative;;
-			overflow: hidden;
-		}
-
-	</style>
 <?php }
 // add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
@@ -142,17 +112,7 @@ function disable_parent_menu_link()
 {
     wp_print_scripts('jquery');
 ?>
-    <script type="text/javascript">
-        if (jQuery("ul li.menu-item:has(ul.sub-menu)").length > 0) {
-            jQuery("ul li.menu-item:has(ul.sub-menu)").hover(function() {
-                jQuery(this).children("a").removeAttr('href');
-                jQuery(this).children("a").css('cursor', 'default');
-                jQuery(this).children("a").click(function() {
-                    return false;
-                });
-            });
-        }
-    </script>
+
 <?php
 }
 
