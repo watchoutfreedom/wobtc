@@ -137,4 +137,32 @@ body {
   flex: 0 1 25%;
 }
 
+.pricing__card {
+  padding: 24px;
+  border: 1px solid #f0f0f0;
+  margin-right: 24px;
+  text-align: center;
+}
+
+.pricing__euros {
+  font-size: 36px;
+}
+.pricing__euros span {
+  font-size: 28px;
+}
+
+.pricing__name {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pricing__day {
+  opacity: 0.5;
+}
+
+.pricing__list {
+  padding: 24px 0;
+}
+
 /*# sourceMappingURL=main.css.map */
