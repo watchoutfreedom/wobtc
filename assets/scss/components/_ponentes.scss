@@ -1,0 +1,14 @@
+.ponentes {
+    display: flex;
+    flex-flow: row wrap;
+
+    img {
+        width: 24px;
+        height: auto;
+        border-radius: 100%;
+    }
+}
+
+.ponentes__card {
+    flex: 0 1 20%;
+}

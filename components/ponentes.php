@@ -7,11 +7,11 @@
     $ponentes = get_posts($args);
     if ($ponentes): 
       foreach($ponentes as $ponente):  setup_postdata( $ponente );?>
-      <div class="box2">
-        <div class="single">
+      <div class="ponentes__card">
+        <div class="ponentes__content">
           <a href="<?php echo get_field("url",$ponente->ID) ?>" class="text-decoration-none 	text-dark" target="_blank">
-            <img class="img-fluid img-thumbnail wob-thumbnail" src="<?php echo get_the_post_thumbnail_url($ponente->ID) ?>" alt="" >
-            <div class="wob-thumbnail__name">
+            <img class="ponentes__img" src="<?php echo get_the_post_thumbnail_url($ponente->ID) ?>" alt="" >
+            <div class="ponentes__title">
               <h5>
                 <?php echo $ponente->post_title ?>
               </h5>

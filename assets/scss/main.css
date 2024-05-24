@@ -51,8 +51,18 @@ body {
   background: red;
 }
 
-body {
-  background: red;
+.ponentes {
+  display: flex;
+  flex-flow: row wrap;
+}
+.ponentes img {
+  width: 24px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.ponentes__card {
+  flex: 0 1 20%;
 }
 
 /*# sourceMappingURL=main.css.map */
