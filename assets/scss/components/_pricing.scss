@@ -19,7 +19,8 @@
 }
 
 .pricing__euros {
-	font-size: 36px;
+	font-size: 48px;
+	font-weight: 900;
 
 	span {
 		font-size: 28px;
@@ -38,4 +39,9 @@
 
 .pricing__list {
 	padding: 24px 0;
+
+	li {
+		padding-left: 16px;
+		padding-bottom: 16px;
+	}
 }
