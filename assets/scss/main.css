@@ -125,4 +125,16 @@ body {
   font-size: 14px;
 }
 
+.pricing {
+  width: 90%;
+  margin: auto;
+  padding: 10vh 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pricing__box {
+  flex: 0 1 25%;
+}
+
 /*# sourceMappingURL=main.css.map */
