@@ -8,4 +8,19 @@
 .hero__content {
 	width: 90%;
 	margin: auto;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.hero__header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.hero__title {
+	font-size: 48px;
 }
