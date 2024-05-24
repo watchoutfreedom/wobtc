@@ -86,6 +86,10 @@ body {
   max-width: 840px;
 }
 
+.sponsor {
+  display: none;
+}
+
 .ponentes {
   display: flex;
   flex-flow: row wrap;
