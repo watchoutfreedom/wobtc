@@ -99,7 +99,8 @@ body {
 }
 
 .ponentes__card {
-  flex: 0 1 20%;
+  flex: 0 1 calc(20% - 24px);
+  margin: 12px;
   padding: 24px;
   background: white;
   border: 1px solid #f0f0f0;
