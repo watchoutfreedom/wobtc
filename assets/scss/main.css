@@ -52,12 +52,12 @@ body {
   background: black;
   color: white;
   height: 100vh;
-  padding: 24px 0;
 }
 
 .hero__content {
   width: 90%;
   margin: auto;
+  padding: 48px 0;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
