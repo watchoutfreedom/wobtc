@@ -64,14 +64,25 @@ body {
   height: 100%;
 }
 
+.hero__message {
+  padding: 20vh 0;
+}
+
 .hero__header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
 
+.hero__subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
 .hero__title {
   font-size: 48px;
+  max-width: 840px;
 }
 
 .ponentes {
