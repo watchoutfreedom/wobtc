@@ -2,12 +2,14 @@
 	display: flex;
 	flex-flow: row wrap;
 	width: 90%;
-	margin: auto;
+	margin: 10vh auto;
 
 	img {
-			width: 24px;
-			height: auto;
-			border-radius: 100%;
+    width: 54px;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 12px;
+    margin-top: -36px;
 	}
 }
 

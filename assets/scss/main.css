@@ -94,12 +94,14 @@ body {
   display: flex;
   flex-flow: row wrap;
   width: 90%;
-  margin: auto;
+  margin: 10vh auto;
 }
 .ponentes img {
-  width: 24px;
+  width: 54px;
   height: auto;
   border-radius: 100%;
+  margin-bottom: 12px;
+  margin-top: -36px;
 }
 
 .ponentes__card {
