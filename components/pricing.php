@@ -19,7 +19,7 @@
 			<div class="pricing__day">Viernes 27 sep</div>
 		</div>
 		<ul class="pricing__list">
-			<li><?php get_template_part('icons/check'); ?><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
 			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
