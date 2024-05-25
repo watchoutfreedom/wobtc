@@ -87,6 +87,9 @@
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
+	border-top: 1px solid #383838;
+	padding-top: 30px;
+	margin-top: 30px;
 }
 
 .hero__link {
@@ -96,6 +99,8 @@
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
+	align-items: center;
+	margin-right: 16px;
 
 	svg {
 		width: 20px;

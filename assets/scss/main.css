@@ -224,6 +224,9 @@ body {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  border-top: 1px solid #383838;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .hero__link {
@@ -233,6 +236,8 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  align-items: center;
+  margin-right: 16px;
 }
 .hero__link svg {
   width: 20px;
