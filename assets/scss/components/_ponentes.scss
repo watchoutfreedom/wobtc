@@ -42,10 +42,33 @@
 	}
 }
 
-@media #{$breakpoints-large} {
+@media #{$breakpoints-medium} {
   .ponentes {
     flex-flow: row wrap;
     overflow-x: auto;
     min-width: auto;
+  }
+
+  .ponentes__card {
+    flex: 0 1 calc(100% / 3);
+    box-sizing: border-box;
+  }
+}
+
+@media #{$breakpoints-large} {
+  .ponentes__card {
+    flex: 0 1 calc(100% / 4);
+  }
+}
+
+@media #{$breakpoints-xlarge} {
+  .ponentes__card {
+    flex: 0 1 calc(100% / 5);
+  }
+}
+
+@media #{$breakpoints-xxlarge} {
+  .ponentes__card {
+    flex: 0 1 calc(100% / 6);
   }
 }
