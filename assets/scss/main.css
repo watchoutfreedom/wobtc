@@ -237,9 +237,8 @@ body {
   padding: 24px 0;
 }
 .pricing__list li {
-  display: flex;
-  align-items: center;
-  padding-bottom: 16px;
+  padding-bottom: 23px;
+  line-height: 26px;
 }
 .pricing__list li svg {
   margin-right: 12px;
