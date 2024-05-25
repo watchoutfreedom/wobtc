@@ -95,7 +95,7 @@ body {
     transform: translateY(0);
   }
 }
-.flash_03 {
+.flash_03, .hero__header {
   animation: 0.4s flash_03 2.25s ease-in-out both;
 }
 
