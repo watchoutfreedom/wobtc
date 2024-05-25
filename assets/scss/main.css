@@ -183,8 +183,21 @@ body {
 }
 
 .heading__title {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .heading__title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .heading__title {
+    font-size: 36px;
+    font-weight: bold;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
