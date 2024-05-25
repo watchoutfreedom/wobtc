@@ -16,8 +16,8 @@
 			</h1>
 			<div class="hero__btns">
 				<a href="#sponsor" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
-				<a href="" class="hero__link">Entrada en euros</a>
-				<a href="" class="hero__link hero__link--bitcoin">Entrada en ₿</a>
+				<a href="" class="hero__link hero__link--c">Entrada en euros</a>
+				<a href="" class="hero__link hero__link--c hero__link--bitcoin">Entrada en ₿</a>
 			</div>
 		</div>
 	</div>
