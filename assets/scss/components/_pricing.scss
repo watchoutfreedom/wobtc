@@ -4,23 +4,26 @@
 	padding: 10vh 0;
 
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
+    overflow-x: scroll;
 }
 
 .pricing__box {
 	flex: 0 1 25%;
+	min-width: 300px;
 }
 
 .pricing__card {
-	padding: 24px;
+	padding: 32px 0 24px 0;
 	border: 1px solid #f0f0f0;
 	margin-right: 24px;
 	text-align: center
 }
 
 .pricing__euros {
-	font-size: 48px;
-	font-weight: 900;
+	font-size: 62px;
+    font-weight: 900;
+    margin: 24px 0;
 
 	span {
 		font-size: 28px;
@@ -29,7 +32,7 @@
 
 .pricing__name {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
 }
 
@@ -40,8 +43,8 @@
 .pricing__list {
 	padding: 24px 0;
 
-	li {
-		padding-left: 16px;
+	li {	
+		padding-left: 32px;
 		padding-bottom: 16px;
 	}
 }
