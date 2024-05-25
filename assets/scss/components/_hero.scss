@@ -42,8 +42,16 @@
 
 .hero__title {
 	font-family: $font-cereal-m;
-	font-size: 48px;
+	font-size: 43px;
 	max-width: 840px;
+	line-height: 52px;
+}
+
+@media #{$breakpoints-medium} {
+	.hero__title {
+		font-size: 50px;
+		line-height: 60px;
+	}
 }
 
 @media #{$breakpoints-large} {
@@ -51,5 +59,17 @@
 		img {
 			max-width: 224px;
 		}
+	}
+
+	.hero__title {
+		font-size: 50px;
+		line-height: 60px;
+	}
+}
+
+@media #{$breakpoints-xlarge} {
+	.hero__title {
+		font-size: 60px;
+		line-height: 75px;
 	}
 }
