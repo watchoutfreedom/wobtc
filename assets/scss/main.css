@@ -137,7 +137,6 @@ body {
 }
 
 .ponentes__card {
-  flex: 0 1 calc(20% - 24px);
   min-width: 200px;
   margin: 12px;
   padding: 24px;
