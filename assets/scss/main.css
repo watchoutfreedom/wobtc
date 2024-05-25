@@ -229,8 +229,11 @@ body {
   color: black;
   text-decoration: none;
 }
+.ponentes__card:hover {
+  background: #f0f0f0;
+}
 .ponentes__card:hover img {
-  transform: translateY(-12px);
+  transform: translateY(-8px);
 }
 
 .ponentes__title h5 {
@@ -327,6 +330,22 @@ body {
   min-width: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .pricing {
+    flex-flow: row wrap;
+  }
+  .pricing__box {
+    flex: 0 1 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .pricing {
+    flex-flow: row nowrap;
+  }
+  .pricing__box {
+    flex: 0 1 25%;
+  }
+}
 .heading {
   width: 90%;
   margin: auto;

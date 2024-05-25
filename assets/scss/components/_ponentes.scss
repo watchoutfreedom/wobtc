@@ -31,8 +31,10 @@
 	}
 
   &:hover {
+    background: #f0f0f0;
+
     img {
-      transform: translateY(-12px);
+      transform: translateY(-8px);
     }
   }
 }

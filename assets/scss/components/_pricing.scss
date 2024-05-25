@@ -57,3 +57,23 @@
 		}
 	}
 }
+
+@media #{$breakpoints-medium} {
+	.pricing {
+		flex-flow: row wrap;
+	}
+
+	.pricing__box {
+		flex: 0 1 50%;
+	}
+}
+
+@media #{$breakpoints-large} {
+	.pricing {
+		flex-flow: row nowrap;
+	}
+
+	.pricing__box {
+		flex: 0 1 25%;
+	}
+}
