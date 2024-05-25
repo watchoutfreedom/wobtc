@@ -48,6 +48,13 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+@font-face {
+  font-family: "AirbnbCereal_W_Bd";
+  src: url("../fonts/AirbnbCereal_W_Bd.otf") format("otf");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
 .footer {
   padding: 120px 0;
   border-top: 1px solid #f0f0f0;
@@ -92,6 +99,7 @@ body {
 }
 
 .hero__title {
+  font-family: "AirbnbCereal_W_Bd", sans-serif;
   font-size: 48px;
   max-width: 840px;
 }
