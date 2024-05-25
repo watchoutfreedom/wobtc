@@ -67,6 +67,62 @@ body {
   font-display: swap;
   font-style: normal;
 }
+.flash, .hero__title {
+  animation: 0.5s flash 0.8s ease-in-out both;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.flash_02, .hero__subtitle {
+  animation: 0.4s flash_02 1.5s ease-in-out both;
+}
+
+@keyframes flash_02 {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.flash_03 {
+  animation: 0.4s flash_03 2.25s ease-in-out both;
+}
+
+@keyframes flash_03 {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.flash_04 {
+  animation: 0.4s flash_04 3s ease-in-out both;
+}
+
+@keyframes flash_04 {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .footer {
   padding: 120px 0;
   border-top: 1px solid #f0f0f0;
