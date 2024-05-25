@@ -509,6 +509,7 @@ body {
 }
 
 .last__bck {
+  height: 80vh;
   position: relative;
 }
 .last__bck img {
