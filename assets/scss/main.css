@@ -119,7 +119,7 @@ body {
     transform: translateY(12px);
   }
   100% {
-    opacity: 0.2;
+    opacity: 0.5;
     transform: translateY(0);
   }
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .hero {
-  background: black;
+  background: #151515;
   color: white;
   height: 100vh;
   position: relative;
@@ -163,6 +163,7 @@ body {
   right: 0;
   z-index: 5;
   bottom: 0;
+  overflow: hidden;
 }
 .hero__img img {
   width: 100%;
