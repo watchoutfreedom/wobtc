@@ -107,7 +107,7 @@ body {
 }
 
 .hero__title {
-  font-family: "AirbnbCereal_W_Bd", sans-serif;
+  font-family: "AirbnbCereal_W_Md", sans-serif;
   font-size: 48px;
   max-width: 840px;
 }
@@ -211,6 +211,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 48px 0 0 0;
+  font-family: "AirbnbCereal_W_Md", sans-serif;
 }
 
 .heading__title {
@@ -246,12 +247,14 @@ body {
   }
 }
 .last {
+  font-family: "AirbnbCereal_W_Md", sans-serif;
   background: #191919;
   color: white;
 }
 
 .last__content {
   margin: 0 auto;
+  padding: 124px 0;
   width: 90%;
   max-width: 480px;
 }
@@ -263,6 +266,25 @@ body {
 
 .last__p {
   font-size: 20px;
+}
+
+.last__numbers {
+  margin: auto;
+  max-width: 800px;
+  padding: 84px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.last__big {
+  font-size: 48px;
+}
+
+.last__small {
+  padding-top: 4px;
+  font-size: 18px;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=main.css.map */
