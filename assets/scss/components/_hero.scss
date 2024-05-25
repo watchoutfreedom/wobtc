@@ -27,7 +27,7 @@
 
 .hero__logo {
 	img {
-		max-width: 120px;
+		max-width: 150px;
 		height: auto;
 	}
 }
@@ -42,4 +42,12 @@
 .hero__title {
 	font-size: 48px;
 	max-width: 840px;
+}
+
+@media #{$breakpoints-large} {
+	.hero__logo {
+		img {
+			max-width: 224px;
+		}
+	}
 }
