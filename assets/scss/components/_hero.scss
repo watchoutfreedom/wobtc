@@ -22,6 +22,7 @@
 .hero__header {
 	@extend .flash_03;
 
+	align-items: center;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
