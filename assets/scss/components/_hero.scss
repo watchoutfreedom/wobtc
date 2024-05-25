@@ -3,10 +3,13 @@
 	color: white;
 	height: 100vh;
 	position: relative;
+	overflow: hidden;
 }
 
 .hero__img {
-	position: absolute;
+	@extend .flash_2;
+	
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -14,7 +17,9 @@
 	bottom: 0;
 
 	img {
-		opacity: .5;
+    opacity: 0.2;
+    width: 100%;
+    height: auto;
 	}
 }
 
