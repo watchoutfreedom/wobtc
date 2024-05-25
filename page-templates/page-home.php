@@ -36,6 +36,6 @@ get_header(); ?>
 	</div>
 </div>
 <?php get_template_part('components/pricing'); ?>
-<?php get_template_part('components/2023'); ?>
+<?php get_template_part('components/last'); ?>
 
 <?php get_footer(); ?>
