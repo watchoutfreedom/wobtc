@@ -1,7 +1,9 @@
 <div class="hero">
 	<div class="hero__content">
 		<div class="hero__header">
-			<div class="hero__logo">logo</div>
+			<div class="hero__logo">
+				<a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/wob24-logo.png"></a>
+			</div>
 			<div class="hero__meta">27, 28, y 29 de septiembre - Esacio Pavlo VI, Madrid</div>
 		</div>
 		<div class="hero__message">
