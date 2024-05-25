@@ -448,10 +448,12 @@ body {
 
 .last__box {
   flex: 0 1 50%;
+  margin-bottom: 24px;
 }
 
 .last__big {
   font-size: 48px;
+  margin-bottom: 5px;
 }
 
 .last__small {
