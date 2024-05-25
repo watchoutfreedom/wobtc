@@ -234,7 +234,7 @@ body {
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   align-items: center;
   margin-right: 16px;
@@ -372,7 +372,7 @@ body {
 .pricing {
   width: 90%;
   margin: auto;
-  padding: 10vh 0;
+  padding: 48px 0;
   font-family: "Overpass", sans-serif;
   display: flex;
   flex-flow: row nowrap;
@@ -443,6 +443,7 @@ body {
   }
 }
 .heading {
+  align-items: center;
   width: 90%;
   margin: auto;
   display: flex;
