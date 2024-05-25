@@ -446,7 +446,7 @@ body {
   width: 90%;
   margin: auto;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   padding: 48px 0 0 0;
   font-family: "Overpass", sans-serif;
@@ -476,9 +476,19 @@ body {
   color: white;
 }
 
+.heading--entradas {
+  flex-flow: column wrap;
+}
+.heading--entradas .heading__btns {
+  margin-top: 16px;
+}
+
 @media only screen and (min-width: 768px) {
-  .heading {
+  .heading--entradas {
     flex-flow: row nowrap;
+  }
+  .heading--entradas .heading__btns {
+    margin-top: 0;
   }
   .heading__title {
     font-size: 32px;
