@@ -4,12 +4,8 @@
   color: white;
 }
 
-.last__content {
-  margin: 0 auto;
-  padding: 124px 0 48px 0;
-  width: 90%;
-  max-width: 520px;
-  position: relative; 
+.last__bck {
+  position: relative;
 
   img {
     opacity: .1;
@@ -23,7 +19,16 @@
     background-position: center center;
     background-size: contain;
     object-fit: cover;
+    z-index: 5;
   }
+}
+
+.last__content {
+  margin: 0 auto;
+  padding: 124px 0 48px 0;
+  width: 90%;
+  max-width: 520px;
+  z-index: 10;
 }
 
 .last__title {
