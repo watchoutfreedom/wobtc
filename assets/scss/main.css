@@ -511,6 +511,10 @@ body {
 .last__bck {
   height: 80vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 .last__bck img {
   opacity: 0.1;
