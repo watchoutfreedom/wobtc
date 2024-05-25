@@ -1,5 +1,5 @@
 <div class="last">
-  <div class="last__content">
+<div class="last__content">
     <div class="last__title">
       <h2>Edición 2023</h2>
     </div>
@@ -24,5 +24,12 @@
       <div class="last__big">3</div>
       <div class="last__small">días</div>
     </div>
+  </div>
+  <div class="last__content last__content--bck">
+    <img src="<?php bloginfo('template_directory'); ?>/assets/img/2023.jpg" class="last__img" alt="Fotografia del evento wobitcoin 2023 madrid" />
+    <div class="last__paragraph">
+      Con capacidad para más de 600 personas, este año habrá más experiencias prácticas, formativas y oportunidades para establecer lazos de mutuo interés en el mejor ambiente.
+    </div>
+  </div>
   </div>
 </div>
