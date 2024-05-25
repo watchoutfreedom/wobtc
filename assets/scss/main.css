@@ -237,6 +237,7 @@ body {
   padding: 24px 0;
 }
 .pricing__list li {
+  display: flex;
   padding-bottom: 23px;
   line-height: 26px;
 }
