@@ -83,6 +83,30 @@
 	line-height: 52px;
 }
 
+.hero__btns {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.hero__link {
+	display: inline-flex;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+
+	svg {
+		width: 20px;
+    height: 20px;
+    border: 1px solid;
+    padding: 12px;
+		margin-right: 12px;
+    border-radius: 100%;
+	}
+}
+
 @media #{$breakpoints-medium} {
 	.hero__title {
 		font-size: 50px;
