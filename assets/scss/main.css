@@ -123,12 +123,13 @@ body {
 
 .ponentes {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   width: 90%;
   margin: 10vh auto;
+  overflow-x: scroll;
 }
 .ponentes img {
-  width: 54px;
+  width: 64px;
   height: auto;
   border-radius: 100%;
   margin-top: -36px;
@@ -137,6 +138,7 @@ body {
 
 .ponentes__card {
   flex: 0 1 calc(20% - 24px);
+  min-width: 200px;
   margin: 12px;
   padding: 24px;
   background: white;
@@ -148,14 +150,23 @@ body {
 }
 
 .ponentes__title h5 {
-  font-size: 20px;
+  font-family: "AirbnbCereal_W_Md", sans-serif;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 .ponentes__title p {
   opacity: 0.5;
   font-size: 14px;
+  line-height: 22px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .ponentes {
+    flex-flow: row wrap;
+    overflow-x: auto;
+    min-width: auto;
+  }
+}
 .pricing {
   width: 90%;
   margin: auto;

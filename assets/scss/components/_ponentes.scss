@@ -1,11 +1,12 @@
 .ponentes {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	width: 90%;
 	margin: 10vh auto;
+  overflow-x: scroll;
 
 	img {
-    width: 54px;
+    width: 64px;
     height: auto;
     border-radius: 100%;
     margin-top: -36px;
@@ -15,6 +16,7 @@
 
 .ponentes__card {
 	flex: 0 1 calc( 20% - 24px);
+  min-width: 200px;
 	margin: 12px;
 	padding: 24px;
 	background: white;
@@ -28,12 +30,22 @@
 
 .ponentes__title {
 	h5 {
-		font-size: 20px;
+		font-family: $font-cereal-m;
+		font-size: 24px;
 		margin-bottom: 10px;
 	}
 
 	p {
 		opacity: .5;
 		font-size: 14px;
+    line-height: 22px;
 	}
+}
+
+@media #{$breakpoints-large} {
+  .ponentes {
+    flex-flow: row wrap;
+    overflow-x: auto;
+    min-width: auto;
+  }
 }
