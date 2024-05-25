@@ -171,6 +171,7 @@ body {
   width: 90%;
   margin: auto;
   padding: 10vh 0;
+  font-family: "AirbnbCereal_W_Md", sans-serif;
   display: flex;
   flex-flow: row nowrap;
   overflow-x: scroll;
@@ -189,6 +190,7 @@ body {
 }
 
 .pricing__euros {
+  font-family: "AirbnbCereal_W_Bd", sans-serif;
   font-size: 62px;
   font-weight: 900;
   margin: 24px 0;

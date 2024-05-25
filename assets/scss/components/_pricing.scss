@@ -2,10 +2,10 @@
 	width: 90%;
 	margin: auto;
 	padding: 10vh 0;
-
+	font-family: $font-cereal-m;
 	display: flex;
 	flex-flow: row nowrap;
-    overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 .pricing__box {
@@ -21,9 +21,10 @@
 }
 
 .pricing__euros {
+	font-family: $font-cereal;
 	font-size: 62px;
-    font-weight: 900;
-    margin: 24px 0;
+	font-weight: 900;
+	margin: 24px 0;
 
 	span {
 		font-size: 28px;
