@@ -44,7 +44,7 @@
 }
 
 .flash_04 {
-  animation: .4s flash_04 3s ease-in-out both;
+  animation: .2s flash_04 1s ease-in-out both;
 }
 
 @keyframes flash_04 {
@@ -53,7 +53,7 @@
     transform: translateY(12px);
   } 
   100% {
-    opacity: 0.15;
+    opacity: 0.2;
     transform: translateY(0);
   }
 }

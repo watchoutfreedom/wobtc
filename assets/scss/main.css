@@ -110,7 +110,7 @@ body {
   }
 }
 .flash_04, .hero__img {
-  animation: 0.4s flash_04 3s ease-in-out both;
+  animation: 0.2s flash_04 1s ease-in-out both;
 }
 
 @keyframes flash_04 {
@@ -119,7 +119,7 @@ body {
     transform: translateY(12px);
   }
   100% {
-    opacity: 0.15;
+    opacity: 0.2;
     transform: translateY(0);
   }
 }
