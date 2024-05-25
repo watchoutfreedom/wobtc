@@ -48,6 +48,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.footer {
+  padding: 120px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
 .hero {
   background: black;
   color: white;
@@ -179,12 +184,27 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 48px 0 24px 0;
+  padding: 48px 0 0 0;
 }
 
 .heading__title {
   font-size: 24px;
   font-weight: bold;
+}
+
+.heading__btns a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: 1px solid black;
+  margin-left: 24px;
+  transition: 0.2s;
+}
+.heading__btns a:hover {
+  background: black;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
