@@ -126,7 +126,7 @@ body {
   flex-flow: row nowrap;
   width: 90%;
   margin: 0 auto;
-  padding: 5vh 0 10vh auto;
+  padding: 5vh 0 10vh 0;
   overflow-x: scroll;
 }
 .ponentes img {
