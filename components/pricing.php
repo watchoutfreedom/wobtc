@@ -6,8 +6,8 @@
 			<div class="pricing__day">Viernes 27 sep</div>
 		</div>
 		<ul class="pricing__list">
-			<li>Asiste a los talleres</li>
-			<li>Elige itinerario básico o avanzado</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
 	<!-- talleres -->
@@ -19,8 +19,8 @@
 			<div class="pricing__day">Viernes 27 sep</div>
 		</div>
 		<ul class="pricing__list">
-			<li>Asiste a los talleres</li>
-			<li>Elige itinerario básico o avanzado</li>
+			<li><?php get_template_part('icons/check'); ?><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
 	<!-- talleres -->
@@ -33,8 +33,8 @@
 			<div class="pricing__day">Viernes 27 sep</div>
 		</div>
 		<ul class="pricing__list">
-			<li>Asiste a los talleres</li>
-			<li>Elige itinerario básico o avanzado</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
 	<!-- talleres -->
@@ -47,15 +47,15 @@
 			<div class="pricing__day">Viernes 27 sep</div>
 		</div>
 		<ul class="pricing__list">
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Asiste a los talleres</li>
-			<li>Elige itinerario básico o avanzado</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Asiste a los talleres</li>
+			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
 	<!-- talleres -->
