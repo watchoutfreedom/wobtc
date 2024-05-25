@@ -55,6 +55,13 @@ body {
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "AirbnbCereal_W_Md";
+  src: url("../fonts/AirbnbCereal_W_Md.otf") format("otf");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
 .footer {
   padding: 120px 0;
   border-top: 1px solid #f0f0f0;
@@ -92,6 +99,7 @@ body {
 }
 
 .hero__subtitle {
+  font-family: "AirbnbCereal_W_Md", sans-serif;
   font-size: 18px;
   font-weight: bold;
   opacity: 0.5;
