@@ -28,7 +28,7 @@ get_header(); ?>
 	</div>
 </div>
 <?php get_template_part('components/ponentes'); ?>
-<div class="heading" id="entradas">
+<div class="heading heading--entradas" id="entradas">
 	<h2 class="heading__title">Entradas 2024</h2>
 	<div class="heading__btns">
 		<a href="">Comprar en euros</a>
