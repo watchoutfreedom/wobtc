@@ -190,7 +190,7 @@ body {
 }
 
 .hero__message {
-  padding: 20vh 0;
+  padding: 10vh 0;
 }
 
 .hero__header {
@@ -265,6 +265,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .hero__message {
+    padding: 15vh 0;
+  }
   .hero__title {
     font-size: 50px;
     line-height: 60px;
