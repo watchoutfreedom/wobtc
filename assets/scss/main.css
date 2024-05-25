@@ -442,8 +442,12 @@ body {
   max-width: 800px;
   padding: 84px 0;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
+}
+
+.last__box {
+  flex: 0 1 50%;
 }
 
 .last__big {
@@ -454,6 +458,12 @@ body {
   padding-top: 4px;
   font-size: 18px;
   opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .last__box {
+    flex: 0 1 25%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
