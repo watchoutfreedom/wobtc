@@ -19,7 +19,7 @@
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
-			<li><?php get_template_part('icons/check'); ?><?php get_template_part('icons/check'); ?>Debates del sábado y domingo</li>
+			<li><?php get_template_part('icons/check'); ?>Debates del sábado y domingo</li>
 			<li><?php get_template_part('icons/check'); ?>Acceso a Fanzone</li>
 		</ul>
 	</div>
