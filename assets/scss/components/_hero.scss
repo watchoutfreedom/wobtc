@@ -2,12 +2,28 @@
 	background: black;
 	color: white;
 	height: 100vh;
+	position: relative;
+}
+
+.hero__thumb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	bottom: 0;
+
+	img {
+		opacity: .5;
+	}
 }
 
 .hero__content {
 	width: 90%;
 	margin: auto;
 	padding: 48px 0;
+	position: relative;
+	z-index: 10;
 
 	display: flex;
 	flex-flow: column;

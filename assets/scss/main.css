@@ -152,12 +152,27 @@ body {
   background: black;
   color: white;
   height: 100vh;
+  position: relative;
+}
+
+.hero__thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  bottom: 0;
+}
+.hero__thumb img {
+  opacity: 0.5;
 }
 
 .hero__content {
   width: 90%;
   margin: auto;
   padding: 48px 0;
+  position: relative;
+  z-index: 10;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -417,7 +432,7 @@ body {
 
 .last__content {
   margin: 0 auto;
-  padding: 124px 0;
+  padding: 124px 0 48px 0;
   width: 90%;
   max-width: 520px;
 }
@@ -444,6 +459,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .last__box {
