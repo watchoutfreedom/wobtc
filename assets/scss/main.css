@@ -79,6 +79,11 @@ body {
   justify-content: space-between;
 }
 
+.hero__logo img {
+  max-width: 120px;
+  height: auto;
+}
+
 .hero__subtitle {
   font-size: 18px;
   font-weight: bold;
