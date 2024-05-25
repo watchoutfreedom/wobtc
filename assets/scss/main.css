@@ -142,6 +142,7 @@ body {
   padding: 24px;
   background: white;
   border: 1px solid #f0f0f0;
+  box-sizing: border-box;
 }
 .ponentes__card a {
   color: black;
@@ -166,8 +167,8 @@ body {
     min-width: auto;
   }
   .ponentes__card {
+    min-width: auto;
     flex: 0 1 33.3333333333%;
-    box-sizing: border-box;
   }
 }
 @media only screen and (min-width: 1024px) {

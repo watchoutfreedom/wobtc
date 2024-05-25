@@ -20,6 +20,7 @@
 	padding: 24px;
 	background: white;
 	border: 1px solid #f0f0f0;
+  box-sizing: border-box;
 
 	a {
 		color: black;
@@ -49,8 +50,8 @@
   }
 
   .ponentes__card {
+    min-width: auto;
     flex: 0 1 calc(100% / 3);
-    box-sizing: border-box;
   }
 }
 
