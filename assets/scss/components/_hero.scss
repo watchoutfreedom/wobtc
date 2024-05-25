@@ -112,6 +112,21 @@
 	}
 }
 
+.hero__link--arrow {
+	margin-right: 32px;
+}
+
+.hero__link--c {
+	padding: 16px 32px;
+	border: 1px solid white;
+	border-radius: 32px;
+}
+
+.hero__link--bitcoin {
+	background: #F7931A;
+	border-color: #F7931A;
+}
+
 @media #{$breakpoints-medium} {
 	.hero__title {
 		font-size: 50px;
