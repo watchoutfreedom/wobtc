@@ -16,8 +16,8 @@
 			</h1>
 			<div class="hero__btns">
 				<a href="#sponsor" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
-				<a href="" class="hero__link hero__link--c">Entrada en euros</a>
-				<a href="" class="hero__link hero__link--c hero__link--bitcoin">Entrada en ₿</a>
+				<a href="https://www.tickettailor.com/events/wobitcoin/1176670" target="_blank" class="hero__link hero__link--c">Entrada en euros</a>
+				<a href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/3cbvZfxYjUHfAsE9NFzNMRQxFM9w" target="_blank" class="hero__link hero__link--c hero__link--bitcoin">Entrada en Bitcoins</a>
 			</div>
 		</div>
 	</div>
