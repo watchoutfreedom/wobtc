@@ -7,6 +7,8 @@
 get_header(); ?>
 
 <?php get_template_part('components/hero'); ?>
+<?php get_template_part('components/message'); ?>
+
 <div class="heading"  id="sponsor">
 	<h2 class="heading__title">Sponsors</h2>
 	<div class="heading__btns">
