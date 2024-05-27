@@ -7,7 +7,7 @@
 			<div class="hero__logo">
 				<a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/wob24-logo.png"></a>
 			</div>
-			<div class="hero__meta">27, 28, y 29 de septiembre - Esacio Pavlo VI, Madrid</div>
+			<div class="hero__meta">27, 28, y 29 de septiembre - Espacio Pavlo VI, Madrid</div>
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle">Edición 2024</div>
