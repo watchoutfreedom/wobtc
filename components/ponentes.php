@@ -1,4 +1,4 @@
-<div class="ponentes">
+<div class="ponentes paused">
     <?php 
     $args = array(
       'post_type' => 'ponente',
