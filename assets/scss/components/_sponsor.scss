@@ -25,4 +25,10 @@
 .sponsor__img {
   width: 100px;
   height: auto;
+  transition: .2s;
+
+  &:hover {
+    opacity: .8;
+    transform: scale(110%);
+  }
 }

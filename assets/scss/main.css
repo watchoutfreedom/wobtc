@@ -318,6 +318,11 @@ body {
 .sponsor__img {
   width: 100px;
   height: auto;
+  transition: 0.2s;
+}
+.sponsor__img:hover {
+  opacity: 0.8;
+  transform: scale(110%);
 }
 
 .ponentes {
