@@ -25,9 +25,9 @@
   box-sizing: border-box;
   transition: .4s;
 
-  view-timeline-name: --box;
+  view-timeline-name: --subjectReveal;
   view-timeline-axis: block;
-  animation-timeline: --box;
+  animation-timeline: --subjectReveal;
   animation-name: show;
   animation-range: entry 25% cover 50%; 
   animation-fill-mode: both;
