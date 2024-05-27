@@ -543,6 +543,10 @@ body {
   color: white;
 }
 
+.last--footer {
+  padding-bottom: 0;
+}
+
 .last__bck {
   height: 80vh;
   position: relative;

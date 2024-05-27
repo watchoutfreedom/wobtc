@@ -1,4 +1,4 @@
-<div class="last">
+<div class="last last--footer">
   <div class="last__content">
       <div class="last__title">
         <h2>Edición 2023</h2>
