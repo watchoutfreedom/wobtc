@@ -44,18 +44,18 @@
       </div>
       <div class="last__card">
       <div class="video__video"><img src="<?php bloginfo('template_directory'); ?>/assets/img/video02.jpg" class="last__thumb"></div>
-        <div class="last__minutes">1 hora y 8 minutos</div>
-        <div class="last__vtitle">La adopción de Bitcoin: ¿Será posible? ¿Dónde estamos? (2023)</div>
+        <div class="last__minutes">1 hora y 42 minutos</div>
+        <div class="last__vtitle">La llegada de las CBDC (Watch Out, Bitcoin! 2023)</div>
       </div>
       <div class="last__card">
       <div class="video__video"><img src="<?php bloginfo('template_directory'); ?>/assets/img/video03.jpg" class="last__thumb"></div>
-        <div class="last__minutes">1 hora y 8 minutos</div>
-        <div class="last__vtitle">La adopción de Bitcoin: ¿Será posible? ¿Dónde estamos? (2023)</div>
+        <div class="last__minutes">32 minutos</div>
+        <div class="last__vtitle">WOB23: Carteras de Bitcoin por @BTCAndres</div>
       </div>
       <div class="last__card">
       <div class="video__video"><img src="<?php bloginfo('template_directory'); ?>/assets/img/video04.jpg" class="last__thumb"></div>
-        <div class="last__minutes">1 hora y 8 minutos</div>
-        <div class="last__vtitle">La adopción de Bitcoin: ¿Será posible? ¿Dónde estamos? (2023)</div>
+        <div class="last__minutes">39 minutos</div>
+        <div class="last__vtitle">WOB23: Bitcoin, introducción, ¿por qué estamos aquí? por Alfre Mancera</div>
       </div>
   </div>
 </div>

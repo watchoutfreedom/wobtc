@@ -647,6 +647,34 @@ body {
   color: black;
 }
 
+.last__video {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 124px 0;
+}
+
+.last__card {
+  flex: 0 1 25%;
+}
+
+.video__video img {
+  opacity: 0.6;
+  border-radius: 16px;
+}
+
+.last__minutes {
+  margin: 12px 0;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.last__vtitle {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 @media only screen and (min-width: 768px) {
   .last__box {
     flex: 0 1 25%;
