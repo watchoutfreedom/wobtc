@@ -180,7 +180,7 @@ body {
 .hero__meta {
   font-size: 14px;
   font-weight: bold;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .hero__content {
@@ -207,7 +207,7 @@ body {
 }
 
 .hero__logo img {
-  max-width: 150px;
+  max-width: 184px;
   height: auto;
 }
 
