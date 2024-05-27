@@ -38,22 +38,22 @@
     </div>
     <div class="last__video">
       <div class="last__card">
-        <div class="video__video"><a href="#" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video01.jpg" class="last__thumb"></a></div>
+        <div class="video__video"><a href="https://www.youtube.com/watch?v=Fy05-P2xakw" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video01.jpg" class="last__thumb"></a></div>
         <div class="last__minutes">1 hora y 8 minutos</div>
         <div class="last__vtitle">La adopción de Bitcoin: ¿Será posible? ¿Dónde estamos? (2023)</div>
       </div>
       <div class="last__card">
-      <div class="video__video"><a href="#" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video02.jpg" class="last__thumb"></a></div>
+      <div class="video__video"><a href="https://www.youtube.com/watch?v=06efjHgp62Q" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video02.jpg" class="last__thumb"></a></div>
         <div class="last__minutes">1 hora y 42 minutos</div>
         <div class="last__vtitle">La llegada de las CBDC (Watch Out, Bitcoin! 2023)</div>
       </div>
       <div class="last__card">
-      <div class="video__video"><a href="#" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video03.jpg" class="last__thumb"></a></div>
+      <div class="video__video"><a href="https://www.youtube.com/watch?v=F5fjW8IqJlw&ab_channel=WatchOut%2CBitcoin%21" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video03.jpg" class="last__thumb"></a></div>
         <div class="last__minutes">32 minutos</div>
         <div class="last__vtitle">WOB23: Carteras de Bitcoin por @BTCAndres</div>
       </div>
       <div class="last__card">
-      <div class="video__video"><a href="#" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video04.jpg" class="last__thumb"></a></div>
+      <div class="video__video"><a href="https://www.youtube.com/watch?v=SAoUcpMJhtI" target="_blank"><?php get_template_part('icons/play'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video04.jpg" class="last__thumb"></a></div>
         <div class="last__minutes">39 minutos</div>
         <div class="last__vtitle">WOB23: Bitcoin, introducción, ¿por qué estamos aquí? por Alfre Mancera</div>
       </div>
