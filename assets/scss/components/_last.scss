@@ -121,13 +121,13 @@
   position: relative;
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     position: absolute;
-    top: calc( 50% - 12px);
-    left: calc( 50% - 12px);
+    top: calc( 50% - 16px);
+    left: calc( 50% - 16px);
     z-index: 4;
-    transition: .2;
+    transition: .3s;
   }
 
   a {
@@ -140,6 +140,7 @@
       }
 
       svg {
+        transform: translateY(-24px);
         opacity: 0;
       }
     }
