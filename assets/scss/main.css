@@ -673,18 +673,26 @@ body {
   top: calc(50% - 12px);
   left: calc(50% - 12px);
   z-index: 4;
+  transition: 0.2;
 }
 .video__video a {
   display: block;
   text-decoration: none;
 }
+.video__video a:hover img {
+  opacity: 0.7;
+}
+.video__video a:hover svg {
+  opacity: 0;
+}
 .video__video img {
   width: 100%;
   height: auto;
-  opacity: 0.6;
+  opacity: 0.4;
   border-radius: 16px;
   position: relative;
   z-index: 2;
+  transition: 0.2s;
 }
 
 .last__minutes {
