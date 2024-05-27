@@ -1,4 +1,4 @@
-<div class="last anim-up anim-pause-2">
+<div class="last">
   <div class="last__content">
       <div class="last__title">
         <h2>Edición 2023</h2>

@@ -1,4 +1,4 @@
-<div class="pricing anim-up anim-pause-2">
+<div class="pricing">
 	<div class="pricing__box">
 		<div class="pricing__card">
 			<div class="pricing__name">Talleres</div>
