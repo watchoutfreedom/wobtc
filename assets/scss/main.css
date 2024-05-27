@@ -636,5 +636,11 @@ body {
     flex: 0 1 25%;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .last__paragraph {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

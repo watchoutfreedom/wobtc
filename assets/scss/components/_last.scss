@@ -102,3 +102,10 @@
     flex: 0 1 25%;
   }
 }
+
+@media #{$breakpoints-xlarge} {
+  .last__paragraph {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
