@@ -110,8 +110,10 @@
 }
 
 .last__card {
-  flex: 0 1 calc( 25% - 24px);
+  flex: 0 1 calc( 50% - 24px);
   padding-right: 24px;
+  margin-bottom: 24px;
+  transition: .2s;
 }
 
 .video__video {
@@ -140,6 +142,10 @@
   }
   .last__paragraph {
     font-size: 26px;
+  }
+
+  .last__card {
+    flex: 0 1 calc( 25% - 24px);
   }
 }
 

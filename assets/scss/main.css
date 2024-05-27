@@ -656,8 +656,10 @@ body {
 }
 
 .last__card {
-  flex: 0 1 calc(25% - 24px);
+  flex: 0 1 calc(50% - 24px);
   padding-right: 24px;
+  margin-bottom: 24px;
+  transition: 0.2s;
 }
 
 .video__video img {
@@ -684,6 +686,9 @@ body {
   }
   .last__paragraph {
     font-size: 26px;
+  }
+  .last__card {
+    flex: 0 1 calc(25% - 24px);
   }
 }
 @media only screen and (min-width: 1280px) {
