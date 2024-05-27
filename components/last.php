@@ -32,7 +32,7 @@
           Con capacidad para más de 600 personas, este año habrá más experiencias prácticas, formativas y oportunidades para establecer lazos de mutuo interés en el mejor ambiente.
         </div>
         <div class="last__btn">
-          <a href="">Quiero colaborar</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero colaborar</a>
         </div>
       </div>
     </div>
