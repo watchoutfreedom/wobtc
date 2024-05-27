@@ -177,6 +177,12 @@ body {
   object-fit: cover;
 }
 
+.hero__meta {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
 .hero__content {
   width: 90%;
   margin: auto;
@@ -196,7 +202,7 @@ body {
 .hero__header {
   align-items: center;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column;
   justify-content: space-between;
 }
 
@@ -274,6 +280,12 @@ body {
   }
   .hero__link--c {
     display: inline-flex;
+  }
+  .hero__header {
+    flex-flow: row nowrap;
+  }
+  .hero__meta {
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -583,7 +595,7 @@ body {
 }
 
 .last__paragraph {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 35px;
 }
 
@@ -638,6 +650,9 @@ body {
 @media only screen and (min-width: 768px) {
   .last__box {
     flex: 0 1 25%;
+  }
+  .last__paragraph {
+    font-size: 26px;
   }
 }
 @media only screen and (min-width: 1280px) {

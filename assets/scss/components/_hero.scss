@@ -30,13 +30,18 @@
 	}
 }
 
+.hero__meta  {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+
 .hero__content {
 	width: 90%;
 	margin: auto;
 	padding: 48px 0;
 	position: relative;
 	z-index: 10;
-
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
@@ -52,7 +57,7 @@
 
 	align-items: center;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column;
 	justify-content: space-between;
 }
 
@@ -140,6 +145,14 @@
 
 	.hero__link--c {
 		display: inline-flex;
+	}
+
+	.hero__header {
+		flex-flow: row nowrap;
+	}
+
+	.hero__meta {
+		margin-top: 0;
 	}
 }
 

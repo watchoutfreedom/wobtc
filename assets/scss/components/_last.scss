@@ -47,7 +47,7 @@
 }
 
 .last__paragraph {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 35px;
 }
 
@@ -104,6 +104,9 @@
 @media #{$breakpoints-medium} {
   .last__box {
     flex: 0 1 25%;
+  }
+  .last__paragraph {
+    font-size: 26px;
   }
 }
 
