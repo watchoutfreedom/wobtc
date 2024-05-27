@@ -11,7 +11,7 @@
       <div class="sponsor__card">
         <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
-            <img class="img-fluid img-thumbnail wob-thumbnail" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" >
+            <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" >
           </a>
             <h5 class="sponsor__link>
                <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
