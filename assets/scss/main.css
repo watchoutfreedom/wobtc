@@ -501,6 +501,7 @@ body {
   border: 1px solid black;
   transition: 0.2s;
   margin-right: 12px;
+  font-size: 15px;
 }
 .heading__btns a:hover {
   background: black;
@@ -608,6 +609,19 @@ body {
   padding-top: 4px;
   font-size: 18px;
   opacity: 0.5;
+}
+
+.last__btn {
+  padding: 48px 0;
+}
+.last__btn a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 12px 24px 10px 24px;
+  border-radius: 24px;
+  border: 1px solid black;
+  transition: 0.2s;
 }
 
 @media only screen and (min-width: 768px) {

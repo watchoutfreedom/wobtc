@@ -31,6 +31,9 @@
         <div class="last__paragraph">
           Con capacidad para más de 600 personas, este año habrá más experiencias prácticas, formativas y oportunidades para establecer lazos de mutuo interés en el mejor ambiente.
         </div>
+        <div class="last__btn">
+          <a href="">Quiero colaborar</a>
+        </div>
       </div>
     </div>
   </div>
