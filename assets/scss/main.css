@@ -532,6 +532,9 @@ body {
     font-size: 36px;
     font-weight: bold;
   }
+  .heading__btns a {
+    font-size: 16px;
+  }
 }
 .last {
   font-family: "Overpass", sans-serif;
@@ -616,12 +619,16 @@ body {
 }
 .last__btn a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: inline-block;
   padding: 12px 24px 10px 24px;
   border-radius: 24px;
-  border: 1px solid black;
+  border: 1px solid white;
   transition: 0.2s;
+}
+.last__btn a:hover {
+  background: white;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
