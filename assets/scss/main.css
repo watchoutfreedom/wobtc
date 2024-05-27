@@ -656,10 +656,13 @@ body {
 }
 
 .last__card {
-  flex: 0 1 25%;
+  flex: 0 1 calc(25% - 24px);
+  padding-right: 24px;
 }
 
 .video__video img {
+  width: 100%;
+  height: auto;
   opacity: 0.6;
   border-radius: 16px;
 }
