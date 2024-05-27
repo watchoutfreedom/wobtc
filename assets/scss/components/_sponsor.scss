@@ -1,3 +1,25 @@
 .sponsor {
-    display: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.sponsor__card {
+  flex: 0 1 20%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.sponsor__title {
+  display: none;
+}
+
+.sponsor__link {
+  text-decoration: none;
+  display: block;
+}
+
+.sponsor__img {
+  width: 100px;
+  height: auto;
 }

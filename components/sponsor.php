@@ -8,14 +8,16 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="slide box5">
-        <div class="single">
-          <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="text-decoration-none text-dark" target="_blank">
+      <div class="sponsor__card">
+        <div class="sponsor__content">
+          <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="img-fluid img-thumbnail wob-thumbnail" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" >
-            <h5>
-                <?php echo $sponsor->post_title ?>
-            </h5>
           </a>
+            <h5 class="sponsor__link>
+               <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
+                <?php echo $sponsor->post_title ?>
+              </a>
+            </h5>
         </div>
       </div>
     <?php endforeach;
