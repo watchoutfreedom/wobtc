@@ -107,6 +107,7 @@
   display: flex;
   flex-flow: row wrap;
   padding: 124px 0;
+  max-width: 1200px;
 }
 
 .last__card {
@@ -117,11 +118,28 @@
 }
 
 .video__video {
+  position: relative;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: calc( 50% - 12px);
+    left: calc( 50% - 12px);
+    z-index: 4;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
   img {
     width: 100%;
     height: auto;
     opacity: .6;
     border-radius: 16px;
+    position: relative;
+    z-index: 2;
   }
 }
 

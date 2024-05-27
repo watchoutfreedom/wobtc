@@ -653,6 +653,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   padding: 124px 0;
+  max-width: 1200px;
 }
 
 .last__card {
@@ -662,11 +663,28 @@ body {
   transition: 0.2s;
 }
 
+.video__video {
+  position: relative;
+}
+.video__video svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  z-index: 4;
+}
+.video__video a {
+  display: block;
+  text-decoration: none;
+}
 .video__video img {
   width: 100%;
   height: auto;
   opacity: 0.6;
   border-radius: 16px;
+  position: relative;
+  z-index: 2;
 }
 
 .last__minutes {

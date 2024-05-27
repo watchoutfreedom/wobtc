@@ -38,7 +38,7 @@
     </div>
     <div class="last__video">
       <div class="last__card">
-        <div class="video__video"><img src="<?php bloginfo('template_directory'); ?>/assets/img/video01.jpg" class="last__thumb"></div>
+        <div class="video__video"><a href="#" target="_blank"><?php get_template_part('icons/arrow'); ?><img src="<?php bloginfo('template_directory'); ?>/assets/img/video01.jpg" class="last__thumb"></a></div>
         <div class="last__minutes">1 hora y 8 minutos</div>
         <div class="last__vtitle">La adopción de Bitcoin: ¿Será posible? ¿Dónde estamos? (2023)</div>
       </div>
