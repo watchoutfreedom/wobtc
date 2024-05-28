@@ -335,8 +335,8 @@ body {
 }
 
 .sponsor__card {
-  flex: 0 1 124px;
-  margin: 32px;
+  flex: 0 1 100px;
+  margin: 16px;
   display: inline-flex;
   align-items: center;
   transition: 0.2s;
