@@ -309,13 +309,15 @@ body {
   padding: 48px 0;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 .sponsor__card {
-  flex: 0 1 145px;
-  margin-right: 16px;
+  flex: 0 1 124px;
+  margin: 16px;
   display: inline-flex;
   align-items: center;
+  transition: 0.2s;
 }
 
 .sponsor__title {
@@ -337,6 +339,12 @@ body {
   transform: scale(105%);
 }
 
+@media only screen and (min-width: 1024px) {
+  .sponsor__card {
+    flex: 0 1 145px;
+    margin: 24px;
+  }
+}
 .ponentes {
   display: flex;
   flex-flow: row nowrap;
