@@ -572,6 +572,7 @@ body {
 
 .heading--entradas {
   flex-flow: column wrap;
+  text-align: center;
 }
 .heading--entradas .heading__btns {
   margin-top: 16px;
@@ -580,6 +581,7 @@ body {
 @media only screen and (min-width: 768px) {
   .heading--entradas {
     flex-flow: row nowrap;
+    text-align: left;
   }
   .heading--entradas .heading__btns {
     margin-top: 0;

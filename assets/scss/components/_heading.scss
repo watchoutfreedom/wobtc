@@ -49,6 +49,7 @@ $heading-size-large: 36px;
 
 .heading--entradas {
 	flex-flow: column wrap;
+	text-align: center;
 
 	.heading__btns {
 		margin-top: 16px;
@@ -59,6 +60,7 @@ $heading-size-large: 36px;
 @media #{$breakpoints-medium} {
 	.heading--entradas {
 		flex-flow: row nowrap;
+		text-align: left;
 
 		.heading__btns {
 			margin-top: 0;
