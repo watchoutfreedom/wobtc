@@ -17,6 +17,7 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/scss/main.css" as="styles">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><?php wp_title(); ?></title>
   <link rel='dns-prefetch' href='//polyfill.io' />
   <script type="application/ld+json">
     {
