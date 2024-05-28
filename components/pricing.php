@@ -60,7 +60,7 @@
 			<li><?php get_template_part('icons/check'); ?>Camiseta WOB 24!</li>
 			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
 			<li><?php get_template_part('icons/check'); ?>Acceso al Cocktail del viernes con ponentes!</li>
-			<li><?php get_template_part('icons/check'); ?>Comidas en la Fanzone los días sábado y domingo.</li>
+			<li><?php get_template_part('icons/check'); ?>Comidas en la Fanzone los días sábado y domingo</li>
 		</ul>
 	</div>
 	<!-- talleres -->
