@@ -1,6 +1,6 @@
 <footer class="footer">
 	<div class="footer__credits">
-		© 2024, Watch Out, BitCoin! 2024
+		© Watch Out, BitCoin! 2024
 	</div>
 	<ul class="footer__list">
 		<li><a href="https://www.dropbox.com/s/hne3v5kbrarcy0v/POL%C3%8DTICA%20DE%20PRIVACIDAD-wof.pdf?raw=1">Legal</a></li>

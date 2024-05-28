@@ -105,9 +105,11 @@
   width: 90%;
   margin: 0 auto;
   display: flex;
-  flex-flow: row wrap;
-  padding: 124px 0;
+  flex-flow: row nowrap;
+  padding: 124px 0 0 0;
+  margin-bottom: 124px;
   max-width: 1200px;
+  overflow-y: scroll;
 }
 
 .last__card {
@@ -115,6 +117,7 @@
   padding-right: 24px;
   margin-bottom: 24px;
   transition: .2s;
+  min-width: 200px;
 }
 
 .video__video {
