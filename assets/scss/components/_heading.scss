@@ -16,6 +16,13 @@ $heading-size-large: 36px;
 .heading__title {
 	font-size: $heading-size-mobile;
 	font-weight: bold;
+
+	span {
+		display: block;
+    font-size: 18px;
+    padding-top: 12px;
+    opacity: .5;
+	}
 }
 
 .heading__btns {

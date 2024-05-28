@@ -445,7 +445,7 @@ body {
 
 .pricing__name {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -460,6 +460,7 @@ body {
   display: flex;
   padding-bottom: 23px;
   line-height: 26px;
+  padding-right: 28px;
 }
 .pricing__list li svg {
   margin-right: 12px;
@@ -498,6 +499,12 @@ body {
 .heading__title {
   font-size: 24px;
   font-weight: bold;
+}
+.heading__title span {
+  display: block;
+  font-size: 18px;
+  padding-top: 12px;
+  opacity: 0.5;
 }
 
 .heading__btns {
