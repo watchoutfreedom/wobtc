@@ -73,23 +73,6 @@
   gtag('config', 'G-1GPPQC4PBG');
 </script>
 
-    <!-- show scroll effect -->
-    <script>
-        function isVisible(elm) {
-        var rect = elm.getBoundingClientRect();
-        var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-        return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
-      }
-
-      window.addEventListener('DOMContentLoaded', (ev0) => {
-        window.addEventListener('scroll', (ev1) => {
-          document.querySelectorAll(".paused").forEach(elm => {
-            if (isVisible(elm)) ...
-              elm.classList.remove("paused"); // 
-          })
-        });
-      });
-</script>
 
 </head>
 
