@@ -240,6 +240,10 @@ body {
   font-size: 15px;
   margin-bottom: 24px;
 }
+.hero__subtitle span {
+  display: block;
+  margin-top: 16px;
+}
 
 .hero__title {
   font-family: "Overpass", sans-serif;
@@ -316,6 +320,9 @@ body {
   .hero__subtitle {
     font-size: 18px;
   }
+  .hero__subtitle span {
+    display: inline-block;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .hero__logo img {
@@ -330,6 +337,9 @@ body {
   .hero__title {
     font-size: 60px;
     line-height: 75px;
+  }
+  .hero__logo img {
+    max-width: 300px;
   }
 }
 .sponsor {

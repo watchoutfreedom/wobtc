@@ -77,6 +77,11 @@
 	opacity: .5;
 	font-size: 15px;
 	margin-bottom: 24px;
+
+	span {
+    display: block;
+    margin-top: 16px;
+	}
 }
 
 .hero__title {
@@ -163,6 +168,10 @@
 
 	.hero__subtitle {
 		font-size: 18px;
+
+		span {
+			display: inline-block;
+		}
 	}
 }
 
@@ -183,5 +192,11 @@
 	.hero__title {
 		font-size: 60px;
 		line-height: 75px;
+	}
+
+	.hero__logo {
+		img {
+			max-width: 300px;
+		}
 	}
 }
