@@ -229,7 +229,7 @@ body {
 }
 
 .hero__logo img {
-  max-width: 184px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -326,12 +326,12 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .hero__logo img {
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .hero__logo img {
-    max-width: 300px;
+    max-width: 325px;
   }
   .hero__title {
     font-size: 50px;

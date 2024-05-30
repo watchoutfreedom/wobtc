@@ -63,7 +63,7 @@
 
 .hero__logo {
 	img {
-		max-width: 184px;
+		max-width: 200px;
 		height: auto;
 	}
 }
@@ -178,7 +178,7 @@
 @media #{$breakpoints-large} {
 	.hero__logo {
 		img {
-			max-width: 200px;
+			max-width: 250px;
 		}
 	}
 }
@@ -186,7 +186,7 @@
 @media #{$breakpoints-large} {
 	.hero__logo {
 		img {
-			max-width: 300px;
+			max-width: 325px;
 		}
 	}
 
