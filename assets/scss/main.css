@@ -608,11 +608,12 @@ body {
 .heading__btns--bitcoin {
   background: #F7931A;
   font-weight: bold;
-  color: white;
+  color: white !important;
+  border-color: white !important;
 }
 .heading__btns--bitcoin:hover {
   background: #F7931A;
-  color: white;
+  color: white !important;
 }
 
 @media only screen and (min-width: 768px) {
