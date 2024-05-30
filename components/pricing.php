@@ -1,132 +1,66 @@
 <div class="pricing">
-  <div class="pricing__card">
-    <h4 class="pricing__title">
-      Normal
-    </h4>
-    <div class="pricing__item">
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Charlas sábado y domingo
-    </div>
-    <div class="pricing__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Acceso a Fanzone
-    </div>
-  </div>
-  
-    <div class="pricing__card pricing__card--featured">
-    <h4 class="pricing__title">
-      Running
-    </h4>
-    <div class="pricing__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Incluye todo lo anterior (Normal)
-    </div>
-    <div class="pricing__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Cocktail sábado con ponentes (20:00 - 22:30 h)
-    </div>
-    <div class="pricing__item">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      AfterWOB (Domingo 15:00 - 20:00 h)
-    </div>
-  </div>
-  
-    <div class="pricing__card">
-    <h4 class="pricing__title">
-      BIP
-    </h4>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Incluye todo lo anterior (Normal y Runing)
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      ¡Sorteo de entradas, camisetas y más!
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Reservado primeras filas del auditorio
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Camisetas WoB 24
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Talleres
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Acceso cena viernes con ponentes
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Almuerzo sábado y domingo
-    </div>
-    <div class="pricing__item">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="oc sb uo ayg"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path></svg>
-      Acceso zona BIP
-    </div>
-      
-  </div>
-  
+	<div class="pricing__box">
+		<div class="pricing__card">
+			<div class="pricing__name">Talleres</div>
+			<div class="pricing__euros">59<span>€</span></div>
+			<div class="pricing__day">1 día (viernes)</div>
+		</div>
+		<ul class="pricing__list">
+			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
+		</ul>
+	</div>
+	<!-- talleres -->
+
+	<div class="pricing__box">
+		<div class="pricing__card">
+			<div class="pricing__name">Normal</div>
+			<div class="pricing__euros">119<span>€</span></div>
+			<div class="pricing__day">2 días (sábado y domingo)</div>
+		</div>
+		<ul class="pricing__list">
+			<li><?php get_template_part('icons/check'); ?>Debates del sábado (10-19 hs.) y domingo (10-15 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso a Fanzone</li>
+		</ul>
+	</div>
+	<!-- talleres -->
+
+
+	<div class="pricing__box">
+		<div class="pricing__card">
+			<div class="pricing__name">Runing</div>
+			<div class="pricing__euros">169<span>€</span></div>
+			<div class="pricing__day">2 días (sábado y domingo)</div>
+		</div>
+		<ul class="pricing__list">
+			<li><?php get_template_part('icons/check'); ?>Debates del sábado y domingo</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso a Fanzone</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso al Cocktail del sábado con ponentes! (19:30-22:00 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>AfterWOB (domingo 15-19:30 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Sorteos de entradas, camisetas y más!</li>
+			<li><?php get_template_part('icons/check'); ?>Asientos preferenciales Running</li>
+		</ul>
+	</div>
+	<!-- talleres -->
+
+
+	<div class="pricing__box">
+		<div class="pricing__card">
+			<div class="pricing__name">BIP</div>
+			<div class="pricing__euros">379<span>€</span></div>
+			<div class="pricing__day">3 días (viernes, sábado y domingo)</div>
+		</div>
+		<ul class="pricing__list">
+			<li><?php get_template_part('icons/check'); ?>Debates del sábado (10-19 hs.) y domingo (10-15 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso a Fanzone</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso al Cocktail del sábado con ponentes! (19:30-22:00 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>AfterWOB (domingo 15-19:30 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Sorteos de entradas, camisetas y más!</li>
+			<li><?php get_template_part('icons/check'); ?>Asientos preferenciales BIP</li>
+			<li><?php get_template_part('icons/check'); ?>Camiseta WOB 24!</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Acceso al Cocktail del viernes con ponentes!</li>
+			<li><?php get_template_part('icons/check'); ?>Comidas en la Fanzone los días sábado y domingo</li>
+		</ul>
+	</div>
+	<!-- talleres -->
 </div>
-
-<style>
-  .pricing {
-  display: flex;
-  flex-flow: column;
-  padding: 48px 0;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.pricing__card {
-  border: 1px solid #f0f0f0;
-  padding: 24px;
-}
-
-.pricing__title {
-  font-size: 24px;
-}
-
-.pricing__item {
-  padding: 4px 12;
-}
-
-.pricing svg {
-  width: 20px;
-  height: 20px;
-  fill: #FF6901;
-  margin-right: 4px;
-}
-
-@media (min-width: 850px) {
-  .pricing {
-    flex-flow: row nowrap;
-    padding: 124px 0;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  .pricing__card {
-    border-radius: 24px;
-    flex:  0 1 calc( 100%/3 );
-  }
-  
-  .pricing .pricing__card:first-child {
-    border-radius: 12px 0 0 12px;
-  }
-  
-  .pricing .pricing__card:last-child {
-    border-radius: 0 12px 12px 0;
-  }
-  
-  .pricing .pricing__card:nth-child(2) {
-    border-radius: 12px 12px 0 0;
-  }
-  
-  .pricing__card--featured {
-    margin-top: -48px;
-  }
-}
-</style>

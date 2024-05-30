@@ -68,9 +68,6 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 		// CDN hosted jQuery placed in the header, as some plugins require that jQuery is loaded in the header.
 		wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', array(), '1.11.3', false );
 
-		// Enqueue scripts for animations
-		wp_enqueue_script( 'sal', get_stylesheet_directory_uri() . '/dist/js/sal.js', array(), '1.0', true );
-
 					// Enqueue scripts
 		wp_enqueue_script( 'gsap', 'https://assets.codepen.io/16327/gsap-latest-beta.min.js?r=3.11.5', array(), '1.0', true );
 
