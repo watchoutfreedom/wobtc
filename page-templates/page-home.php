@@ -13,7 +13,7 @@ get_header(); ?>
 	<h2 class="heading__title">Entradas 2024<span>27, 28 y 29 de septiembre</span></h2>
 	<div class="heading__btns">
 		<a href="https://www.tickettailor.com/events/wobitcoin/1176670" target="_blank">Comprar en Euros</a>
-		<a href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/3cbvZfxYjUHfAsE9NFzNMRQxFM9w" target="_blank">Comprar en Bitcoin</a>	
+		<a class="heading__btns--bitcoin" href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/3cbvZfxYjUHfAsE9NFzNMRQxFM9w" target="_blank">Comprar en Bitcoin</a>	
 	</div>
 </div>
 <?php get_template_part('components/pricing'); ?>

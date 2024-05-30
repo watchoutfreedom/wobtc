@@ -184,6 +184,7 @@ body {
   height: 100vh;
   position: relative;
   overflow: hidden;
+  border-top: 4px solid #F7931A;
 }
 
 .hero__img {
@@ -602,6 +603,16 @@ body {
 }
 .heading--entradas .heading__btns {
   margin-top: 16px;
+}
+
+.heading__btns--bitcoin {
+  background: #F7931A;
+  font-weight: bold;
+  color: white;
+}
+.heading__btns--bitcoin:hover {
+  background: #F7931A;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
