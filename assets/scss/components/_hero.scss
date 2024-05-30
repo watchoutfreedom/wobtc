@@ -73,9 +73,9 @@
 
 
 	font-family: $font-cereal-m;
-	font-size: 18px;
 	font-weight: bold;
 	opacity: .5;
+	font-size: 15px;
 	margin-bottom: 24px;
 }
 
@@ -159,6 +159,10 @@
 
 	.hero__meta {
 		margin-top: 0;
+	}
+
+	.hero__subtitle {
+		font-size: 18px;
 	}
 }
 
