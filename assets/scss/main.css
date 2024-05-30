@@ -607,9 +607,8 @@ body {
 
 .heading__btns--bitcoin {
   background: #F7931A;
-  font-weight: bold;
   color: white !important;
-  border-color: white !important;
+  border-color: #F7931A !important;
 }
 .heading__btns--bitcoin:hover {
   background: #F7931A;
