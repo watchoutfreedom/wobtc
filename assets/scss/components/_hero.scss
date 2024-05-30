@@ -133,6 +133,12 @@
 	border-color: #F7931A;
 }
 
+.hero__subtitle {
+	span {
+		padding-right: 24px;
+	}
+}
+
 @media #{$breakpoints-medium} {
 	.hero__message {
 		padding: 15vh 0;

@@ -7,10 +7,13 @@
 			<div class="hero__logo">
 				<a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/wob24-logo.png"></a>
 			</div>
-			<div class="hero__meta">27, 28, y 29 de septiembre - Espacio Pavlo VI, Madrid</div>
+			<div class="hero__meta"></div>
 		</div>
 		<div class="hero__message">
-			<div class="hero__subtitle">Edición 2024</div>
+			<div class="hero__subtitle">
+				<span>27, 28, y 29 de septiembre</span>
+				<span>Espacio Pavlo VI, Madrid</span>
+			</div>
 			<h1 class="hero__title">
 				Descubre, aprende y comparte en el evento referencia sobre Bitcoin en español
 			</h1>
