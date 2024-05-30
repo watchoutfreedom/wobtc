@@ -134,6 +134,12 @@ body {
   max-width: 1280px;
 }
 
+.footer__box {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .footer__credits {
   font-size: 12px;
   padding-top: 24px;
@@ -141,9 +147,8 @@ body {
 }
 
 .footer__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
+  margin-right: 24px;
 }
 .footer__list li.head {
   padding-bottom: 12px;
