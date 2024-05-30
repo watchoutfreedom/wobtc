@@ -142,18 +142,20 @@ body {
 
 .footer__list {
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
 }
+.footer__list li.head {
+  padding-bottom: 12px;
+  color: #191919;
+  font-weight: bold;
+}
 .footer__list li {
-  display: inline-flex;
-  margin: 0 12px;
+  margin: 8px 0;
 }
 .footer__list li a {
-  color: black;
+  color: #494949;
   text-decoration: none;
-  opacity: 0.5;
   transition: 0.2s;
 }
 .footer__list li a:hover {
@@ -163,7 +165,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .footer {
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     justify-content: space-between;
   }
   .footer__credits {

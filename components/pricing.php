@@ -7,7 +7,6 @@
 		</div>
 		<ul class="pricing__list">
 			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
-			<li><?php get_template_part('icons/check'); ?>Elige itinerario básico o avanzado</li>
 		</ul>
 	</div>
 	<!-- talleres -->

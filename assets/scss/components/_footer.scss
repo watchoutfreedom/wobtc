@@ -17,18 +17,20 @@
 
 .footer__list {
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
 
+  li.head {
+    padding-bottom: 12px;
+    color: #191919;
+    font-weight: bold;
+  }
   li {
-    display: inline-flex;
-    margin: 0 12px;
+    margin: 8px 0;
     
     a {
-      color: black;
+      color: #494949;
       text-decoration: none;
-      opacity: .5;
       transition: .2s;
       
       &:hover {
@@ -41,7 +43,7 @@
 
 @media #{$breakpoints-medium} {
   .footer {
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     justify-content: space-between;
   }
 
