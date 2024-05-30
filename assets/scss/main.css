@@ -326,20 +326,21 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .hero__logo img {
-    max-width: 224px;
+    max-width: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero__logo img {
+    max-width: 300px;
   }
   .hero__title {
     font-size: 50px;
     line-height: 60px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .hero__title {
-    font-size: 60px;
-    line-height: 75px;
-  }
+@media only screen and (min-width: 1440px) {
   .hero__logo img {
-    max-width: 300px;
+    max-width: 400px;
   }
 }
 .sponsor {

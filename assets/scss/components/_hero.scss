@@ -178,7 +178,15 @@
 @media #{$breakpoints-large} {
 	.hero__logo {
 		img {
-			max-width: 224px;
+			max-width: 200px;
+		}
+	}
+}
+
+@media #{$breakpoints-large} {
+	.hero__logo {
+		img {
+			max-width: 300px;
 		}
 	}
 
@@ -188,15 +196,10 @@
 	}
 }
 
-@media #{$breakpoints-xlarge} {
-	.hero__title {
-		font-size: 60px;
-		line-height: 75px;
-	}
-
+@media #{$breakpoints-xxlarge} {
 	.hero__logo {
 		img {
-			max-width: 300px;
+			max-width: 400px;
 		}
 	}
 }
