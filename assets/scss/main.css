@@ -148,7 +148,7 @@ body {
 
 .footer__list {
   text-align: left;
-  margin-right: 24px;
+  margin-right: 84px;
 }
 .footer__list li.head {
   padding-bottom: 12px;
@@ -162,6 +162,7 @@ body {
   color: #494949;
   text-decoration: none;
   transition: 0.2s;
+  padding: 8px;
 }
 .footer__list li a:hover {
   opacity: 1;

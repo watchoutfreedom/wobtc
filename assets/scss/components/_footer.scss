@@ -23,7 +23,7 @@
 
 .footer__list {
   text-align: left;
-  margin-right: 24px;
+  margin-right: 84px;
   
   li.head {
     padding-bottom: 12px;
@@ -37,6 +37,7 @@
       color: #494949;
       text-decoration: none;
       transition: .2s;
+      padding: 8px;
       
       &:hover {
         opacity: 1;
