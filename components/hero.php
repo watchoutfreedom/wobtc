@@ -12,7 +12,7 @@
 		<div class="hero__message">
 			<div class="hero__subtitle">
 				<span>27, 28, y 29 de septiembre</span>
-				<span>Espacio Pavlo VI, Madrid</span>
+				<span>Espacio Pablo VI, Madrid</span>
 			</div>
 			<h1 class="hero__title">
 				Descubre, aprende y comparte en el evento referencia sobre Bitcoin en español
