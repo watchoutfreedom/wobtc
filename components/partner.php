@@ -10,7 +10,7 @@
     <div class="sponsor__card">
       <div class="sponsor__content">
         <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
-          <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="" class="img-fluid">
+          <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" class="img-fluid">
         </a>
       </div>
     </div>
