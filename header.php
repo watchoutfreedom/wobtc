@@ -17,7 +17,13 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/scss/main.css" as="styles">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?php wp_title(); ?></title>
+ 
+  <title>Watch Out, Bitcoin! 2024 en Madrid</title>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Descubre, aprende y comparte en el evento referencia sobre Bitcoin en español">
+  <meta name="keywords" content="bitcoin, evento, Madrid, 2024, Blockchain, Talleres, Entrevista, Arte Bitcoin, Actuaciones, Merche, Hackaton, Debates">
+
   <link rel='dns-prefetch' href='//polyfill.io' />
   <script type="application/ld+json">
     {
