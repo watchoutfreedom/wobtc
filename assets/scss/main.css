@@ -835,12 +835,6 @@ body {
 :root {
   --hot-one: #F7931A;
   --hot-two: #F7931A;
-  --new-one: hsl(75, 88%, 42%);
-  --new-two: hsl(78, 89%, 35%);
-  --pop-one: hsl(207, 69%, 50%);
-  --pop-two: hsl(212, 67%, 36%);
-  --spo-one: hsl(38, 96%, 49%);
-  --spo-two: hsl(34, 89%, 30%);
   --box-shadow: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 }
@@ -901,7 +895,6 @@ body {
   color: var(--white);
   background: var(--hot-one);
   background: linear-gradient(var(--hot-one) 0%, var(--hot-two) 100%);
-  box-shadow: 0 0.188rem 0.625rem -0.313rem var(--box-shadow);
 }
 
 .ribbon span::before {
