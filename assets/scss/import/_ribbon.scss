@@ -67,6 +67,7 @@
   display: block;
   position: absolute;
   top: 1.188rem;
+  letter-spacing: 1px;
   right: -1.313rem;
 }
 
@@ -74,27 +75,6 @@
   color: var(--white);
   background: var(--hot-one);
   background: linear-gradient(var(--hot-one) 0%, var(--hot-two) 100%);
-  box-shadow: 0 0.188rem 0.625rem -0.313rem var(--box-shadow);
-}
-
-.ribbon-new span {
-  color: var(--white);
-  background: var(--new-one);
-  background: linear-gradient(var(--new-one) 0%, var(--new-two) 100%);
-  box-shadow: 0 0.188rem 0.625rem -0.313rem var(--box-shadow);
-}
-
-.ribbon-pop span {
-  color: var(--white);
-  background: var(--pop-one);
-  background: linear-gradient(var(--pop-one) 0%, var(--pop-two) 100%);
-  box-shadow: 0 0.188rem 0.625rem -0.313rem var(--box-shadow);
-}
-
-.ribbon-spo span {
-  color: var(--white);
-  background: var(--spo-one);
-  background: linear-gradient(var(--spo-one) 0%, var(--spo-two) 100%);
   box-shadow: 0 0.188rem 0.625rem -0.313rem var(--box-shadow);
 }
 
@@ -126,54 +106,4 @@
   border-right: 0.188rem solid var(--hot-two);
   border-bottom: 0.188rem solid transparent;
   border-top: 0.188rem solid var(--hot-two);
-}
-
-.ribbon-new span::before {
-  border-left: 0.188rem solid var(--new-two);
-  border-right: 0.188rem solid transparent;
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--new-two);
-}
-
-.ribbon-new span::after {
-  border-left: 0.188rem solid transparent;
-  border-right: 0.188rem solid var(--new-two);
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--new-two);
-}
-
-.ribbon-pop span::before {
-  border-left: 0.188rem solid var(--pop-two);
-  border-right: 0.188rem solid transparent;
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--pop-two);
-}
-
-.ribbon-pop span::after {
-  border-left: 0.188rem solid transparent;
-  border-right: 0.188rem solid var(--pop-two);
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--pop-two);
-}
-
-.ribbon-spo span::before {
-  border-left: 0.188rem solid var(--spo-two);
-  border-right: 0.188rem solid transparent;
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--spo-two);
-}
-
-.ribbon-spo span::after {
-  border-left: 0.188rem solid transparent;
-  border-right: 0.188rem solid var(--spo-two);
-  border-bottom: 0.188rem solid transparent;
-  border-top: 0.188rem solid var(--spo-two);
-}
-
-.desc {
-  margin: 0 auto;
-  padding-top: 3rem;
-  text-align: center;
-  font-size: 1.3rem;
-  max-width: 75ch;
 }
