@@ -498,7 +498,7 @@ body {
 
 .pricing__box {
   flex: 0 1 100%;
-  translate: 0.2s;
+  transition: 0.2s;
 }
 
 .pricing__card {
