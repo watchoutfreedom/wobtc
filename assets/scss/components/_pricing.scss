@@ -4,20 +4,19 @@
 	padding: 48px 0;
 	font-family: $font-cereal-m;
 	display: flex;
-	flex-flow: row nowrap;
-  overflow-x: scroll;
+	flex-flow: row wrap;
 }
 
 .pricing__box {
-	flex: 0 1 25%;
-	min-width: 300px;
+	flex: 0 1 100%;
+	transition: .6s;
 }
 
 .pricing__card {
 	padding: 32px 0 24px 0;
 	border: 1px solid #f0f0f0;
-	margin-right: 24px;
-	text-align: center
+	text-align: center;
+	position: relative;
 }
 
 .pricing__euros {
@@ -60,8 +59,8 @@
 }
 
 @media #{$breakpoints-medium} {
-	.pricing {
-		flex-flow: row wrap;
+	.pricing__card {
+		margin-right: 24px;
 	}
 
 	.pricing__box {
