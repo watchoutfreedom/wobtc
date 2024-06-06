@@ -23,7 +23,6 @@
 
 .footer__list {
   text-align: left;
-  margin-right: 84px;
   
   li.head {
     font-family: $font-cereal;
@@ -52,6 +51,10 @@
   .footer {
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
+  }
+
+  .footer__list {
+    margin-right: 84px;
   }
 
   .footer__credits {
