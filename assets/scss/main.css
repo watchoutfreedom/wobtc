@@ -369,7 +369,7 @@ body {
   transition: 0.2s;
 }
 
-.sponsor__title a {
+.sponsor__title {
   color: black;
   text-align: center;
   font-size: 11px;
@@ -377,6 +377,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 16px;
 }
 
 .sponsor__link {
