@@ -369,8 +369,14 @@ body {
   transition: 0.2s;
 }
 
-.sponsor__title {
-  display: none;
+.sponsor__title a {
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .sponsor__link {
