@@ -148,6 +148,7 @@ body {
 
 .footer__list {
   text-align: left;
+  flex: 0 1 50%;
 }
 .footer__list li.head {
   font-family: "Overpass", sans-serif;
@@ -172,6 +173,9 @@ body {
   .footer {
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
+  }
+  .footer__list {
+    min-width: 250px;
   }
   .footer__credits {
     padding-top: 0;

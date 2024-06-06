@@ -23,7 +23,8 @@
 
 .footer__list {
   text-align: left;
-  
+  flex: 0 1 50%;
+
   li.head {
     font-family: $font-cereal;
     padding-bottom: 8px;
@@ -52,7 +53,11 @@
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
   }
-  
+
+  .footer__list {
+    min-width: 250px;
+  }
+
   .footer__credits {
     padding-top: 0;
   }
