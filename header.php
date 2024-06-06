@@ -23,62 +23,18 @@
   <meta charset="UTF-8">
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <meta name="keywords" content="bitcoin, evento, Madrid, 2024, Blockchain, Talleres, Entrevista, Arte Bitcoin, Actuaciones, Merche, Hackaton, Debates">
+  <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.png" type="image/png" />
 
-  <link rel='dns-prefetch' href='//polyfill.io' />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Watch Out, Bitcoin!'24",
-	  "url":"https://wobitcoin.org/",
-      "startDate": "2024-09-27T10:00-23:00",
-      "endDate": "2024-08-29T10:00-20:00",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "location": {
-        "@type": "Place",
-        "name": "Espacio Pablo VI",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Paseo Juan XXIII, 3",
-          "addressLocality": "Madrid",
-          "postalCode": "28040",
-          "addressRegion": "MA",
-          "addressCountry": "ES"
-        }
-      },
-      "image": [
-		"https://wobitcoin.org/wp-content/themes/Basebuild/dist/img/icon-naranja.png",
-        "https://wobitcoin.org/wp-content/themes/Basebuild/dist/img/wob24_retiro_lowres.jpg",
-        "https://wobitcoin.org/wp-content/themes/Basebuild/dist/img/wob23_auditorio_low_res.jpg"
-       ],
-      "description": "El mayor evento sobre Bitcoin en español. The most important Bitcoin event in spanish community",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.wobitcoin.org/",
-        "price": "119",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2024-03-01T12:00"
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Watch Out, Freedom!",
-        "url": "https://watchoutfreedom.com"
-      }
-    }
-    </script>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1GPPQC4PBG"></script>
-<script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GPPQC4PBG"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-1GPPQC4PBG');
-</script>
-
+  </script>
 
 </head>
 
