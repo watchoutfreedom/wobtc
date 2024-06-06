@@ -493,13 +493,11 @@ body {
   padding: 48px 0;
   font-family: "Overpass", sans-serif;
   display: flex;
-  flex-flow: row nowrap;
-  overflow-x: scroll;
+  flex-flow: row wrap;
 }
 
 .pricing__box {
-  flex: 0 1 25%;
-  min-width: 300px;
+  flex: 0 1 100%;
 }
 
 .pricing__card {
@@ -547,9 +545,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .pricing {
-    flex-flow: row wrap;
-  }
   .pricing__box {
     flex: 0 1 50%;
   }
