@@ -5,11 +5,13 @@
 	<div class="footer__box">
 		<ul class="footer__list">
 			<li class="head">Redes</li>
-			<li><a href="https://help.wobitcoin.org/" target="_Bblank">HelpButton</a></li>
-			<li><a href="https://www.instagram.com/Wo_Bitcoin" target="_Bblank">Instagram</a></li>
-			<li><a href="https://t.me/WoBitcoin" target="_Bblank">Telegram</a></li>
-			<li><a href="https://www.youtube.com/@WOBitcoin" target="_Bblank">Youtube</a></li>
-			<li><a href="https://x.com/Wo_Bitcoin" target="_Bblank">X</a></li>
+			<li><a href="https://help.wobitcoin.org/" target="_blank">HelpButton</a></li>
+			<li><a href="https://www.instagram.com/Wo_Bitcoin" target="_blank">Instagram</a></li>
+			<li><a href="https://t.me/WoBitcoin" target="_blank">Telegram</a></li>
+			<li><a href="https://www.youtube.com/@WOBitcoin" target="_blank">Youtube</a></li>
+			<li><a href="https://www.tiktok.com/@wobitcoin" target="_blank">TikTok</a></li>
+			<li><a href="https://x.com/Wo_Bitcoin" target="_blank">X</a></li>
+			
 		</ul>
 		<ul class="footer__list">
 			<li class="head">Sobre el evento</li>
