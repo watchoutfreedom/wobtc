@@ -2,7 +2,6 @@
 <?php 	
   $args = array(
     'post_type' => 'sponsor',
-    'category' => 'Gold',
     'posts_per_page' => -1
   );
 
@@ -14,9 +13,7 @@
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" >
             <div style="display:none;">
-              <?php echo get_field('category') ?>
-              <?php echo $sponsor->category ?>
-
+              <?php echo get_field("category",$sponsor->ID) ?> VENGA
             </div>
             <h5 class="sponsor__title">
               <?php echo $sponsor->post_title ?>
