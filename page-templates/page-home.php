@@ -9,6 +9,14 @@ get_header(); ?>
 <?php get_template_part('components/hero'); ?>
 <?php get_template_part('components/message'); ?>
 
+<div class="heading" id="ponentes">
+	<h2 class="heading__title">Ponentes</h2>
+	<div class="heading__btns">
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a>
+	</div>
+</div>
+<?php get_template_part('components/ponentes'); ?>
+
 <div class="heading heading--entradas" id="entradas">
 	<h2 class="heading__title">Entradas 2024<span>27, 28 y 29 de septiembre</span></h2>
 	<div class="heading__btns">
@@ -17,14 +25,6 @@ get_header(); ?>
 	</div>
 </div>
 <?php get_template_part('components/pricing'); ?>
-
-<div class="heading" id="ponentes">
-	<h2 class="heading__title">Ponentes</h2>
-	<div class="heading__btns">
-		<a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a>
-	</div>
-</div>
-<?php get_template_part('components/ponentes'); ?>
 
 <div class="heading"  id="sponsor">
 	<h2 class="heading__title">Sponsors</h2>
