@@ -44,4 +44,6 @@ get_header(); ?>
 
 <?php get_template_part('components/last'); ?>
 
+<?php get_template_part('components/gallery'); ?>
+
 <?php get_footer(); ?>

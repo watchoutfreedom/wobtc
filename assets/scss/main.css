@@ -759,7 +759,7 @@ body {
   flex-flow: row nowrap;
   padding: 124px 0 0 0;
   margin-bottom: 124px;
-  max-width: 1200px;
+  max-width: 1280px;
   overflow-y: scroll;
 }
 
@@ -832,6 +832,27 @@ body {
     line-height: 44px;
   }
 }
+.gallery {
+  max-width: 1280px;
+  width: 90;
+  margin: 48px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery__col {
+  flex: 0 1 33.3333333333%;
+}
+.gallery__col img {
+  max-width: 80%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+.gallery__col:last-child {
+  margin-bottom: 0;
+}
+
 *::before,
 *::after {
   box-sizing: border-box;
