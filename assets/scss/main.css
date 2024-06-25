@@ -842,6 +842,7 @@ body {
 
 .gallery__col {
   flex: 0 1 33.3333333333%;
+  text-align: center;
 }
 .gallery__col img {
   max-width: 80%;
