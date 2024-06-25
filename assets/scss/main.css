@@ -836,7 +836,7 @@ body {
   max-width: 1280px;
   width: 90;
   margin: 48px auto;
-  display: flex;
+  display: none;
   flex-flow: row wrap;
 }
 
