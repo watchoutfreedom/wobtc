@@ -410,6 +410,11 @@ body {
     flex: 0 1 145px;
     margin: 48px;
   }
+  .Associate,
+  .Premier,
+  .Platinum {
+    flex: 0 1 400px !important;
+  }
 }
 .ponentes {
   display: flex;
