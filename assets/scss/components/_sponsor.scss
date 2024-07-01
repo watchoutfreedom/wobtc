@@ -42,6 +42,12 @@
   }
 }
 
+#Associate, 
+#Premier,
+#Platinum {
+  flex: 0 1 200px;
+  order: 1;
+}
 
 @media #{$breakpoints-large} {
   .sponsor__card {

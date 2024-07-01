@@ -398,6 +398,13 @@ body {
   transform: scale(105%);
 }
 
+#Associate,
+#Premier,
+#Platinum {
+  flex: 0 1 200px;
+  order: 1;
+}
+
 @media only screen and (min-width: 1024px) {
   .sponsor__card {
     flex: 0 1 145px;
