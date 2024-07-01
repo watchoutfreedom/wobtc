@@ -370,6 +370,7 @@ body {
   display: inline-flex;
   align-items: center;
   transition: 0.2s;
+  order: 9;
 }
 
 .sponsor__title {
