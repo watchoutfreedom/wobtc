@@ -401,7 +401,7 @@ body {
 .Associate,
 .Premier,
 .Platinum {
-  flex: 0 1 200px;
+  flex: 0 1 200px !important;
   order: 1;
 }
 
