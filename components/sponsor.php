@@ -2,7 +2,7 @@
 <?php 	
   $args = array(
     'post_type' => 'sponsor',
-    'category' => 'Silver',
+    'cat' => 'Silver',
     'posts_per_page' => -1
   );
 
