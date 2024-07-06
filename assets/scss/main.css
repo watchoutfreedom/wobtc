@@ -509,7 +509,7 @@ body {
     flex: 0 1 25%;
   }
   .ponentes__title h5 {
-    font-size: 240px;
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
