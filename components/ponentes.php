@@ -2,6 +2,7 @@
     <?php 
     $args = array(
       'post_type' => 'media',
+      'category' => 'Silver',
       'posts_per_page' => -1
     );
     $medias = get_posts($args);
