@@ -9,7 +9,7 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?></div>
+      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?> sponsors</div>
       <div class="sponsor__card <?php echo get_field("category",$sponsor->ID) ?>">
         <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
@@ -36,7 +36,7 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?></div>
+      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?> sponsors</div>
       <div class="sponsor__card <?php echo get_field("category",$sponsor->ID) ?>">        <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" >
@@ -64,7 +64,7 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?></div>
+      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?> sponsors</div>
       <div class="sponsor__card <?php echo get_field("category",$sponsor->ID) ?>">        <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" >
@@ -92,7 +92,7 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?></div>
+      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?> sponsors</div>
       <div class="sponsor__card <?php echo get_field("category",$sponsor->ID) ?>">        <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" >
@@ -120,7 +120,7 @@
   $sponsors = get_posts($args);
   if ($sponsors): 
     foreach($sponsors as $sponsor):  setup_postdata( $sponsor );?>
-      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?></div>
+      <div class="sponsor__cat"><?php echo get_field("category",$sponsor->ID) ?> sponsors</div>
       <div class="sponsor__card <?php echo get_field("category",$sponsor->ID) ?>">        <div class="sponsor__content">
           <a href="<?php echo get_field("url",$sponsor->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_the_post_thumbnail_url($sponsor->ID) ?>" alt="<?php echo $sponsor->post_title ?>" >
