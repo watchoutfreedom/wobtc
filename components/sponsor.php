@@ -2,6 +2,7 @@
 <?php 	
   $args = array(
     'post_type' => 'sponsor',
+    'meta_value'    => 'Silver',
     'posts_per_page' => -1
   );
 
