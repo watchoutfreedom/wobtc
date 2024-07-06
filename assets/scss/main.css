@@ -422,13 +422,13 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .sponsor__card {
-    flex: 0 1 145px;
+    flex: 0 1 124px;
     margin: 48px;
   }
   .Associate,
   .Premier,
   .Platinum {
-    flex: 0 1 400px !important;
+    flex: 0 1 250px !important;
   }
 }
 .ponentes {
