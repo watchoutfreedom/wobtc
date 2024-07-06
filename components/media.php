@@ -11,7 +11,7 @@
       <div class="sponsor__card">
         <div class="sponsor__content">
           <a href="<?php echo get_field("url",$media->ID) ?>" class="sponsor__link" target="_blank">
-            <img class="sponsor__img" src="<?php echo get_field("field_66891794604f8") ?>" alt="<?php echo $media->post_title ?>" >
+            <img class="sponsor__img" src="<?php get_field("field_66891794604f8") ?>" alt="<?php echo $media->post_title ?>" >
             <h5 class="sponsor__title">
               <?php echo $media->post_title ?>
             </h5>
