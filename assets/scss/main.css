@@ -380,7 +380,7 @@ body {
 
 .sponsor__card {
   flex: 0 1 100px;
-  margin: 16px;
+  margin: 24px;
   display: inline-flex;
   align-items: center;
   transition: 0.2s;
@@ -428,7 +428,7 @@ body {
   .Associate,
   .Premier,
   .Platinum {
-    flex: 0 1 300px !important;
+    flex: 0 1 240px !important;
   }
 }
 .ponentes {
@@ -631,6 +631,10 @@ body {
 .heading__btns a:hover {
   background: black;
   color: white;
+}
+
+.heading--bottom {
+  margin-bottom: 54px;
 }
 
 .heading--entradas {
