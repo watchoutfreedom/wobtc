@@ -34,6 +34,7 @@ get_header(); ?>
 </div>
 
 <?php get_template_part('components/sponsor'); ?>
+
 <div class="heading" id="partner">
 	<h2 class="heading__title">Partners</h2>
 	<div class="heading__btns">
@@ -41,15 +42,16 @@ get_header(); ?>
 	</div>
 </div>
 
-<?php get_template_part('components/media'); ?>
+<?php get_template_part('components/partner'); ?>
+
+
 <div class="heading" id="partner">
 	<h2 class="heading__title">Media Partner</h2>
 	<div class="heading__btns">
 		<a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser partner</a>
 	</div>
 </div>
-
-<?php get_template_part('components/partner'); ?>
+<?php get_template_part('components/media'); ?>
 
 <?php get_template_part('components/last'); ?>
 
