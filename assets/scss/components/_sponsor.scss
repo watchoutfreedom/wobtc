@@ -4,6 +4,20 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+
+  .sponsor__cat {
+    display: none;
+  }
+
+  .sponsor__cat:first-child {
+    display: block;
+    text-align: center;
+    opacity: .6;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 0;
+    letter-spacing: 1px;
+  }
 }
 
 .sponsor__card {

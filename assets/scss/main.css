@@ -362,6 +362,18 @@ body {
   flex-flow: row wrap;
   justify-content: center;
 }
+.sponsor .sponsor__cat {
+  display: none;
+}
+.sponsor .sponsor__cat:first-child {
+  display: block;
+  text-align: center;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 12px 0;
+  letter-spacing: 1px;
+}
 
 .sponsor__card {
   flex: 0 1 100px;
