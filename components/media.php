@@ -24,4 +24,4 @@
       <?php endforeach;
       wp_reset_postdata();
     endif;?>
-</div> <!-- ponentes -->
+</div> <!-- media partner -->
