@@ -12,8 +12,6 @@
         <div class="sponsor__content">
           <a href="<?php echo get_field("url",$media->ID) ?>" class="sponsor__link" target="_blank">
             <img class="sponsor__img" src="<?php echo get_field("field_66891794604f8") ?>" alt="<?php echo $media->post_title ?>" >
-            <?php echo get_field($image = get_field('field_66891794604f8', false, false); ?>
-
             <h5 class="sponsor__title">
               <?php echo $media->post_title ?>
             </h5>
