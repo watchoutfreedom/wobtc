@@ -8,10 +8,10 @@
   $medias = get_posts($args);
   if ($medias): 
     foreach($medias as $media):  setup_postdata( $media );?>
-      <div class="sponsor__card <?php echo get_field("category",$media->ID) ?>">
-        <div class="sponsor__content">
+      <div class="sponsor__card">
+        <div class="sponsor__content">post_thumbnail_html
           <a href="<?php echo get_field("url",$media->ID) ?>" class="sponsor__link" target="_blank">
-            <img class="sponsor__img" src="<?php echo get_field("logo") ?>" alt="<?php echo $media->post_title ?>" >
+            <img class="sponsor__img" src="<?php echo get_field("imagen",$media->ID) ?>" alt="<?php echo $media->post_title ?>" >
             <h5 class="sponsor__title">
               <?php echo $media->post_title ?>
             </h5>
