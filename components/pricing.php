@@ -13,7 +13,7 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-		<div class="ribbon ribbon-hot"><span>REGULAR</span></div>
+		<div class="ribbon ribbon-hot"><span>MID TERM</span></div>
 			<div class="pricing__name">Normal</div>
 			<div class="pricing__euros">149<span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
@@ -28,7 +28,7 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-			<div class="ribbon ribbon-hot"><span>REGULAR</span></div>
+			<div class="ribbon ribbon-hot"><span>MID TERM</span></div>
 			<div class="pricing__name">Runing</div>
 			<div class="pricing__euros">199<span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
