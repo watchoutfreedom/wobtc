@@ -17,6 +17,8 @@
 .single__content {
   margin: 24px auto;
   max-width: 750px;
+  line-height: 26px;
+  font-family: $font-cereal-m;
 
   h2,
   h3,
@@ -40,5 +42,11 @@
     li {
       padding: 8px 0;
     }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 24px 0;
   }
 }
