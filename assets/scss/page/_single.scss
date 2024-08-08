@@ -6,6 +6,8 @@
 
 .single__title {
   @extend .heading__title;
+
+  padding: 12px 0;
 }
 
 .single__info {
@@ -31,6 +33,9 @@
   h3,
   h4 {
     margin-top: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   h2,
