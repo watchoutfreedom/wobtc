@@ -922,6 +922,9 @@ body {
   list-style-type: disc;
   padding-left: 12px;
 }
+.single__content ul li {
+  padding: 8px 0;
+}
 
 *::before,
 *::after {

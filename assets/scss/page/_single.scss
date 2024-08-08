@@ -36,5 +36,9 @@
   ul {
     list-style-type: disc;
     padding-left: 12px;
+
+    li {
+      padding: 8px 0;
+    }
   }
 }
