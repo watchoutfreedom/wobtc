@@ -1,4 +1,12 @@
 <div class="hero">
+	<div class="hero__menu">
+		<a href="#portada">Portada</a>
+		<a href="#portada">Ponentes</a>
+		<a href="#portada">Entradas</a>
+		<a href="#portada">Sponsors</a>
+		<a href="#portada">FAQs</a>
+		<a href="#portada">Evento23</a>
+	</div>
 	<div class="hero__img">
 		<img src="<?php bloginfo('template_directory'); ?>/assets/img/hero_wobitcoin.jpg" alt="Fotografia del evento wobitcoin" />
 	</div>

@@ -7,6 +7,23 @@
 	border-top: 4px solid #F7931A;
 }
 
+.hero__menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-right: 84px;
+	text-align: right;
+
+	a {
+		font-family: $font-cereal-m;
+		font-weight: bold;
+		font-size: 14px;
+		display: inline-block;
+		padding: 12px 8px;
+	}
+}
+
 .hero__img {
 	@extend .flash_04;
 
