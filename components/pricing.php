@@ -30,7 +30,7 @@
 		<div class="pricing__card">
 		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52e8a10254'); ?></span></div>
 			<div class="pricing__name">Runing</div>
-			<div class="pricing__euros"><?php the_field('field_66b52dae79d83'); ?><span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52fd1fec7e'); ?><span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
