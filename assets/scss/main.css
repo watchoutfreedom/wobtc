@@ -191,7 +191,7 @@ body {
 }
 
 .hero__menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -199,6 +199,7 @@ body {
   text-align: right;
   z-index: 50;
   backdrop-filter: blur(8px);
+  padding: 24px 0;
 }
 .hero__menu a {
   text-decoration: none;
