@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" id="portada">
 	<div class="hero__menu">
 		<a href="#portada">Portada</a>
 		<a href="#ponentes">Ponentes</a>
