@@ -1,6 +1,6 @@
 <div class="last last--footer">
   <div class="last__content">
-      <div class="last__title">
+      <div class="last__title" id="2023">
         <h2>Edición 2023</h2>
       </div>
       <div class="last__paragraph">
