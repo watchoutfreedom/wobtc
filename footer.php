@@ -6,6 +6,7 @@
 		<ul class="footer__list">
 			<li class="head">Redes</li>
 			<li><a href="https://help.wobitcoin.org/" target="_blank">HelpButton</a></li>
+			<li><a href="https://www.linkedin.com/company/watch-out-bitcoin" target="_blank">Linkedin</a></li>
 			<li><a href="https://www.instagram.com/Wo_Bitcoin" target="_blank">Instagram</a></li>
 			<li><a href="https://t.me/WoBitcoin" target="_blank">Telegram</a></li>
 			<li><a href="https://www.youtube.com/@WOBitcoin" target="_blank">Youtube</a></li>

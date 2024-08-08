@@ -1,18 +1,35 @@
 .sponsor {
   width: 90%;
   margin: auto;
-  padding: 48px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+
+  .sponsor__cat {
+    display: none;
+  }
+
+  .sponsor__cat:first-child {
+    display: block;
+    flex: 0 1 100%;
+    text-align: center;
+    opacity: .6;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 0;
+    letter-spacing: 1px;
+    margin-top: 54px;
+  }
 }
 
 .sponsor__card {
   flex: 0 1 100px;
-  margin: 16px;
+  margin: 24px;
   display: inline-flex;
   align-items: center;
   transition: .2s;
+  order: 9;
 }
 
 .sponsor__title {
@@ -42,10 +59,23 @@
   }
 }
 
+.Associate, 
+.Premier,
+.Platinum {
+  flex: 0 1 200px !important;
+  order: 1;
+}
 
 @media #{$breakpoints-large} {
   .sponsor__card {
-    flex: 0 1 145px;
+    flex: 0 1 100px;
     margin: 48px;
+  }
+
+
+  .Associate, 
+  .Premier,
+  .Platinum {
+    flex: 0 1 240px !important;
   }
 }

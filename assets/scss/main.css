@@ -358,18 +358,33 @@ body {
 .sponsor {
   width: 90%;
   margin: auto;
-  padding: 48px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
+.sponsor .sponsor__cat {
+  display: none;
+}
+.sponsor .sponsor__cat:first-child {
+  display: block;
+  flex: 0 1 100%;
+  text-align: center;
+  opacity: 0.6;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  margin-top: 54px;
+}
 
 .sponsor__card {
   flex: 0 1 100px;
-  margin: 16px;
+  margin: 24px;
   display: inline-flex;
   align-items: center;
   transition: 0.2s;
+  order: 9;
 }
 
 .sponsor__title {
@@ -398,19 +413,30 @@ body {
   transform: scale(105%);
 }
 
+.Associate,
+.Premier,
+.Platinum {
+  flex: 0 1 200px !important;
+  order: 1;
+}
+
 @media only screen and (min-width: 1024px) {
   .sponsor__card {
-    flex: 0 1 145px;
+    flex: 0 1 100px;
     margin: 48px;
+  }
+  .Associate,
+  .Premier,
+  .Platinum {
+    flex: 0 1 240px !important;
   }
 }
 .ponentes {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   width: 90%;
   margin: 0 auto;
   padding: 5vh 0 10vh 0;
-  overflow-x: scroll;
 }
 .ponentes img {
   width: 80px;
@@ -422,8 +448,7 @@ body {
 }
 
 .ponentes__card {
-  min-width: 250px;
-  flex: 0 1 250px;
+  flex: 0 1 50%;
   padding: 24px;
   background: white;
   border: 1px solid #f0f0f0;
@@ -456,7 +481,7 @@ body {
 
 .ponentes__title h5 {
   font-family: "Overpass", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 .ponentes__title p {
@@ -475,10 +500,16 @@ body {
     min-width: auto;
     flex: 0 1 33.3333333333%;
   }
+  .ponentes__title h5 {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .ponentes__card {
     flex: 0 1 25%;
+  }
+  .ponentes__title h5 {
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -604,6 +635,10 @@ body {
 .heading__btns a:hover {
   background: black;
   color: white;
+}
+
+.heading--bottom {
+  margin-bottom: 54px;
 }
 
 .heading--entradas {
@@ -759,7 +794,7 @@ body {
   flex-flow: row nowrap;
   padding: 124px 0 0 0;
   margin-bottom: 124px;
-  max-width: 1200px;
+  max-width: 1280px;
   overflow-y: scroll;
 }
 
@@ -832,6 +867,28 @@ body {
     line-height: 44px;
   }
 }
+.gallery {
+  max-width: 1280px;
+  width: 90;
+  margin: 48px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery__col {
+  flex: 0 1 33.3333333333%;
+  text-align: center;
+}
+.gallery__col img {
+  max-width: 90%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+.gallery__col:last-child {
+  margin-bottom: 0;
+}
+
 *::before,
 *::after {
   box-sizing: border-box;
