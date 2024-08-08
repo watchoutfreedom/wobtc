@@ -4,8 +4,8 @@
   <article class="single">
     <div class="single__meta">
       <div class="single__info">
-        <span><?php the_field('field_66a224bc1299d'); ?></span>
-        <?php the_field('field_66a224971299b'); ?>
+        <span><?php the_field('field_66a224bc1299d'); ?></span> ·
+        <span>Tendrá una duración de <?php the_field('field_66a224971299b'); ?></span>
       </div>
       <h1 class="single__title"><?php the_title(); ?></h1>
     </div>

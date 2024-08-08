@@ -891,7 +891,7 @@ body {
 
 .single {
   width: 90%;
-  margin: 200px auto;
+  margin: 100px auto;
   max-width: 1280px;
 }
 
@@ -903,6 +903,9 @@ body {
   font-size: 18px;
   padding-top: 12px;
   opacity: 0.5;
+}
+.single__info span {
+  margin-right: 12px;
 }
 
 .single__description {

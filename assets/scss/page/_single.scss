@@ -1,6 +1,6 @@
 .single {
   width: 90%;
-  margin: 200px auto;
+  margin: 100px auto;
   max-width: 1280px;
 }
 
@@ -14,6 +14,10 @@
   font-size: 18px;
   padding-top: 12px;
   opacity: .5;
+  
+  span {
+    margin-right: 12px;
+  }
 } 
 
 .single__description {
