@@ -17,6 +17,10 @@
   top: 0;
   width: 100%;
 
+  font-family: $font-cereal-m;
+  background: #191919;
+  color: white;
+
 	a {
 		text-decoration: none;
 		color: white;
@@ -27,7 +31,7 @@
 		padding: 12px 8px;
     opacity: .6;
     transition: .2s;
-    
+
     &:hover {
       opacity: 1;
     }
