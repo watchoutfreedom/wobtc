@@ -1,5 +1,5 @@
 <div class="wrapper">  
-  <div class="container">
+  <div class="container_box">
     <div class="question">
       Qué es WoB?
     </div>
@@ -10,7 +10,7 @@ Watch out, Bitcoin! es un evento presencial anual para hablar y debatir sobre Bi
     </div>
   </div>
   
-    <div class="container">
+    <div class="contaicontainer_boxer">
     <div class="question">
 ¿Dónde y cuándo es el evento? ¿Cómo puedo llegar?
     </div>
@@ -22,7 +22,7 @@ El evento se celebra del 27 al 29 de septiembre en Madrid, en el Espacio Pablo V
     </div>
   </div>
   
-      <div class="container">
+      <div class="container_box">
     <div class="question">
 ¿Puedo hacerlo de manera anónima?
     </div>
@@ -34,7 +34,7 @@ Puedes comprar tu entrada con Bitcoin o tarjeta. Para realizar la compra es nece
     </div>
   </div>
  
-  <div class="container">
+  <div class="container_box">
     <div class="question">
 ¿Es posible comprar la entrada como empresa y/o obtener factura?
     </div>
@@ -46,7 +46,7 @@ Sí, una vez realizada la compra, envíanos un email a info@wobitcoin.org.
     </div>
   </div>
   
-  <div class="container">
+  <div class="container_box">
     <div class="question">
 ¿Se pueden hacer fotos?
     </div>
