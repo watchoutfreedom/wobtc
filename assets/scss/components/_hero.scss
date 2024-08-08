@@ -14,13 +14,21 @@
 	width: 100%;
 	padding-right: 84px;
 	text-align: right;
+	z-index: 50;
+	backdrop-filter: blur(8px);
 
 	a {
+		text-decoration: none;
+		color: white;
 		font-family: $font-cereal-m;
 		font-weight: bold;
 		font-size: 14px;
 		display: inline-block;
 		padding: 12px 8px;
+	}
+
+	a:last-child {
+		margin-right: 24px;
 	}
 }
 

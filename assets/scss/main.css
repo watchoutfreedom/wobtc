@@ -197,13 +197,20 @@ body {
   width: 100%;
   padding-right: 84px;
   text-align: right;
+  z-index: 50;
+  backdrop-filter: blur(8px);
 }
 .hero__menu a {
+  text-decoration: none;
+  color: white;
   font-family: "Overpass", sans-serif;
   font-weight: bold;
   font-size: 14px;
   display: inline-block;
   padding: 12px 8px;
+}
+.hero__menu a:last-child {
+  margin-right: 24px;
 }
 
 .hero__img {
