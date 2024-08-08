@@ -2,7 +2,7 @@
 	<div class="pricing__box">
 		<div class="pricing__card">
 			<div class="pricing__name">Talleres</div>
-			<div class="pricing__euros">59<span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52d7679d81'); ?><span>€</span></div>
 			<div class="pricing__day">1 día (viernes)</div>
 		</div>
 		<ul class="pricing__list">
@@ -13,9 +13,9 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-		<div class="ribbon ribbon-hot"><span>MID TERM</span></div>
+		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52d8a79d82'); ?></span></div>
 			<div class="pricing__name">Normal</div>
-			<div class="pricing__euros">149<span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52da179d83'); ?><span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
@@ -28,9 +28,9 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-			<div class="ribbon ribbon-hot"><span>MID TERM</span></div>
+		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52da179d83'); ?></span></div>
 			<div class="pricing__name">Runing</div>
-			<div class="pricing__euros">199<span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52dae79d84'); ?><span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
@@ -47,9 +47,9 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-			<div class="ribbon ribbon-hot"><span>REGULAR</span></div>
+		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52e9b10255'); ?></span></div>
 			<div class="pricing__name">BIP</div>
-			<div class="pricing__euros">499<span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52dae79d84'); ?><span>€</span></div>
 			<div class="pricing__day">3 días (viernes, sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
