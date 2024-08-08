@@ -200,6 +200,7 @@ body {
   z-index: 50;
   backdrop-filter: blur(8px);
   padding: 24px 0;
+  display: none;
 }
 .hero__menu a {
   text-decoration: none;
@@ -337,6 +338,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .hero__menu {
+    display: block;
+  }
   .hero__message {
     padding: 15vh 0;
   }

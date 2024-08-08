@@ -17,6 +17,7 @@
 	z-index: 50;
 	backdrop-filter: blur(8px);
 	padding: 24px 0;
+	display: none;
 
 	a {
 		text-decoration: none;
@@ -172,6 +173,10 @@
 }
 
 @media #{$breakpoints-medium} {
+	.hero__menu {
+		display: block;
+	}
+	
 	.hero__message {
 		padding: 15vh 0;
 	}
