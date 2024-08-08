@@ -1,4 +1,4 @@
-<div class="last">
+<div class="last last--menu">
   <div class="last__menu">
     <a href="#portada">Portada</a>
 		<a href="#ponentes">Ponentes</a>

@@ -719,6 +719,26 @@ body {
   color: white;
 }
 
+.last--menu {
+  padding: 0;
+}
+
+.last__menu {
+  text-align: center;
+  padding: 8px;
+  position: sticky;
+  z-index: 100;
+}
+.last__menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 8px;
+}
+
 .last--footer {
   padding-bottom: 20px;
 }
