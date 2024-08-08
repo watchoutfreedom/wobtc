@@ -198,7 +198,6 @@ body {
   padding-right: 84px;
   text-align: right;
   z-index: 50;
-  backdrop-filter: blur(8px);
   padding: 24px 0;
   display: none;
 }
@@ -397,13 +396,12 @@ body {
   display: block;
   flex: 0 1 100%;
   text-align: center;
-  opacity: 0.6;
+  opacity: 0.8;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 12px;
-  padding: 12px 0;
+  font-size: 16px;
+  padding: 12px 0 0 0;
   letter-spacing: 1px;
-  margin-top: 54px;
+  margin-top: 32px;
 }
 
 .sponsor__card {
