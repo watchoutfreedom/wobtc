@@ -3,3 +3,35 @@
   margin: 200px auto;
   max-width: 1280px;
 }
+
+.single__title {
+  @extend .heading__title;
+}
+
+.single__info {
+  @extend .heading__title;
+} 
+
+.single__content {
+  margin: 24px 0;
+
+  h2,
+  h3,
+  h4 {
+    margin-top: 24px;
+  }
+
+  h2,
+  h3,
+  h4,
+  ol,
+  ul,
+  p {
+    margin-bottom: 12px;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 12px;
+  }
+}

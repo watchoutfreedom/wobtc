@@ -606,11 +606,11 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.heading__title {
+.heading__title, .single__info, .single__title {
   font-size: 24px;
   font-weight: bold;
 }
-.heading__title span {
+.heading__title span, .single__info span, .single__title span {
   display: block;
   font-size: 18px;
   padding-top: 12px;
@@ -667,7 +667,7 @@ body {
   .heading--entradas .heading__btns {
     margin-top: 0;
   }
-  .heading__title {
+  .heading__title, .single__info, .single__title {
     font-size: 32px;
     font-weight: bold;
   }
@@ -676,7 +676,7 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .heading__title {
+  .heading__title, .single__info, .single__title {
     font-size: 36px;
     font-weight: bold;
   }
@@ -893,6 +893,27 @@ body {
   width: 90%;
   margin: 200px auto;
   max-width: 1280px;
+}
+
+.single__content {
+  margin: 24px 0;
+}
+.single__content h2,
+.single__content h3,
+.single__content h4 {
+  margin-top: 24px;
+}
+.single__content h2,
+.single__content h3,
+.single__content h4,
+.single__content ol,
+.single__content ul,
+.single__content p {
+  margin-bottom: 12px;
+}
+.single__content ul {
+  list-style-type: disc;
+  padding-left: 12px;
 }
 
 *::before,
