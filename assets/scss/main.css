@@ -889,6 +889,12 @@ body {
   margin-bottom: 0;
 }
 
+.single {
+  width: 90%;
+  margin: 200px auto;
+  max-width: 1280px;
+}
+
 *::before,
 *::after {
   box-sizing: border-box;
