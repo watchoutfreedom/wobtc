@@ -57,4 +57,6 @@ get_header(); ?>
 
 <?php get_template_part('components/gallery'); ?>
 
+<?php get_template_part('components/samourai_campaign'); ?>
+
 <?php get_footer(); ?>
