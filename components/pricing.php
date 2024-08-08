@@ -13,9 +13,9 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52d8a79d82'); ?></span></div>
+		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52dbe79d85'); ?></span></div>
 			<div class="pricing__name">Normal</div>
-			<div class="pricing__euros"><?php the_field('field_66b52da179d83'); ?><span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52d8a79d82'); ?><span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
@@ -28,9 +28,9 @@
 
 	<div class="pricing__box">
 		<div class="pricing__card">
-		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52da179d83'); ?></span></div>
+		<div class="ribbon ribbon-hot"><span><?php the_field('field_66b52e8a10254'); ?></span></div>
 			<div class="pricing__name">Runing</div>
-			<div class="pricing__euros"><?php the_field('field_66b52dae79d84'); ?><span>€</span></div>
+			<div class="pricing__euros"><?php the_field('field_66b52dae79d83'); ?><span>€</span></div>
 			<div class="pricing__day">2 días (sábado y domingo)</div>
 		</div>
 		<ul class="pricing__list">
