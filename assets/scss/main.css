@@ -728,6 +728,8 @@ body {
   padding: 8px;
   position: sticky;
   z-index: 100;
+  top: 0;
+  width: 100%;
 }
 .last__menu a {
   text-decoration: none;
@@ -737,6 +739,11 @@ body {
   font-size: 14px;
   display: inline-block;
   padding: 12px 8px;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+.last__menu a:hover {
+  opacity: 1;
 }
 
 .last--footer {
