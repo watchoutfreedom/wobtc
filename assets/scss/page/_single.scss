@@ -9,11 +9,14 @@
 }
 
 .single__info {
-  @extend .heading__title;
+  font-size: 18px;
+  padding-top: 12px;
+  opacity: .5;
 } 
 
 .single__content {
-  margin: 24px 0;
+  margin: 24px auto;
+  max-width: 750px;
 
   h2,
   h3,
