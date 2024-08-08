@@ -53,6 +53,12 @@ get_header(); ?>
 </div>
 <?php get_template_part('components/media'); ?>
 
+<div class="heading heading--bottom" id="faq">
+	<h2 class="heading__title">FAQ</h2>
+</div>
+<?php get_template_part('components/faq'); ?>
+
+
 <?php get_template_part('components/last'); ?>
 
 <?php get_template_part('components/gallery'); ?>

@@ -889,6 +889,44 @@ body {
   margin-bottom: 0;
 }
 
+.container {
+  color: black;
+  margin: 20px 0;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question::after {
+  content: "+";
+  font-size: 1rem;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 20px 20px;
+  line-height: 1.5rem;
+}
+
 .single {
   width: 90%;
   margin: 100px auto;
