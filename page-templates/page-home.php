@@ -46,7 +46,7 @@ get_header(); ?>
 
 
 <div class="heading heading--bottom" id="media">
-	<h2 class="heading__title">Media Partner</h2>
+	<h2 class="heading__title">Media Partners</h2>
 	<div class="heading__btns">
 		<a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser Media</a>
 	</div>
@@ -54,7 +54,7 @@ get_header(); ?>
 <?php get_template_part('components/media'); ?>
 
 <div class="heading heading--bottom" id="faq">
-	<h2 class="heading__title">FAQ</h2>
+	<h2 class="heading__title">FAQs</h2>
 </div>
 <?php get_template_part('components/faq'); ?>
 
