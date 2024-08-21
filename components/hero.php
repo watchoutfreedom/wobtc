@@ -9,9 +9,8 @@
 	</div>
 	<div class="hero__video">
 		<video autoplay muted loop playsinline>
-			<source src="<?php bloginfo('template_directory'); ?>/assets/video/1a3288.webm" type="video/webm">
-			<!-- Puedes incluir un fallback a un formato de video alternativo como MP4 -->
-			<source src="<?php bloginfo('template_directory'); ?>/assets/video/1a3288.mp4" type="video/mp4">
+			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/webm">
+			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/mp4">
 			Tu navegador no soporta videos HTML5.
 		</video>
 	</div>
