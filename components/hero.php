@@ -15,9 +15,6 @@
 			Tu navegador no soporta videos HTML5.
 		</video>
 	</div>
-	<div class="hero__img">
-		<img src="<?php bloginfo('template_directory'); ?>/assets/img/hero_wobitcoin.jpg" alt="Fotografia del evento wobitcoin" />
-	</div>
 	<div class="hero__content">
 		<div class="hero__header">
 			<div class="hero__logo">
