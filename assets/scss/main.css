@@ -641,6 +641,10 @@ body {
   height: 20px;
   min-width: 20px;
 }
+.pricing__list a {
+  display: block;
+  padding-left: 16px;
+}
 
 @media only screen and (min-width: 768px) {
   .pricing__card {
