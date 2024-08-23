@@ -7,7 +7,7 @@
 		</div>
 		<ul class="pricing__list">
 			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
-			<li><?php get_template_part('icons/check'); ?>Elige entre una de estas tres opciones:</li>
+			<li><?php get_template_part('icons/check'); ?>Elige una de estas tres opciones:</li>
 			<li><a href="https://wobitcoin.org/talleres/taller-de-custodia-de-bitcoin-con-sistemas-multifirma/">Taller de Custodia con Multifirma</a></li>
 			<li><a href="https://wobitcoin.org/talleres/taller-de-mineria/">Taller de Minería</a></li>
 			<li><a href="https://wobitcoin.org/talleres/taller-de-lightning-network/">Taller de Lightning Network</a></li>
