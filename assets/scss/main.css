@@ -645,6 +645,10 @@ body {
   display: block;
   padding-left: 26px;
   color: #F7931A;
+  text-decoration: none;
+  background-color: #F7931A;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 @media only screen and (min-width: 768px) {
