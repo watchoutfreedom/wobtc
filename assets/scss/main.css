@@ -646,6 +646,9 @@ body {
   padding-left: 26px;
   color: #F7931A;
 }
+.pricing__list a:hover {
+  color: black;
+}
 
 @media only screen and (min-width: 768px) {
   .pricing__card {
