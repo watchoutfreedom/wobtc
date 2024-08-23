@@ -644,6 +644,7 @@ body {
 .pricing__list a {
   display: block;
   padding-left: 16px;
+  color: #F7931A;
 }
 
 @media only screen and (min-width: 768px) {
