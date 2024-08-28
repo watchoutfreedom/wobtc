@@ -63,7 +63,7 @@ Durante el evento se repartirán distintivos para señalizar si se desea o no se
     </div>
     <div class="answercont">
       <div class="answer">
-Hasta un mes antes del comienzo del evento. Pasada esa fecha, puedes publicar tu entrada en <a href="Https://help.wobitcoin.org">Red Wob</a> bajo la categoría de Entradas para encontrar compradores. 
+Hasta un mes antes del comienzo del evento. Pasada esa fecha, puedes publicar tu entrada en la <a href="Https://help.wobitcoin.org">Red Wob!</a> bajo la categoría de Entradas para encontrar compradores y lo compartiremos en el resto de canales de Wob!. 
       </div>
     </div>
   </div>
