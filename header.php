@@ -32,6 +32,7 @@
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <meta name="keywords" content="bitcoin, evento, Madrid, 2024, Blockchain, Talleres, Entrevista, Arte Bitcoin, Actuaciones, Merche, Hackaton, Debates">
   <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.png" type="image/png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 
 </head>
