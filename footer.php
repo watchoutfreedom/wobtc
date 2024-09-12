@@ -2,9 +2,10 @@
 	<div class="footer__box footer__credits">
 		<p >© Watch Out, BitCoin! 2024</p>
 		<p >
-			680936011
 			Avda. México 10 p7 2A 
-			11405 Jerez (Cádiz)
+		</p>
+		<p >
+		11405 Jerez (Cádiz)
 		</p>
 	</div>
 
