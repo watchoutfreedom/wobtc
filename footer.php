@@ -1,16 +1,17 @@
 <footer class="footer">
 	<div class="footer__box footer__credits">
-		© Watch Out, BitCoin! 2024
+		<p >© Watch Out, BitCoin! 2024</p>
+		<p >
+			680936011
+			Avda. México 10 p7 2A 
+			11405 Jerez (Cádiz)
+		</p>
 	</div>
-	<div class="footer__box footer__credits">
-	680936011
-	Avda. México 10 p7 2A 
-	11405 Jerez (Cádiz)
-	</div>
+
 	<div class="footer__box">
 		<ul class="footer__list">
 			<li class="head">Redes</li>
-			<li><a href="https://help.wobitcoin.org/" target="_blank">HelpButton</a></li>
+			<li><a href="https://help.wobitcoin.org/" target="_blank">Red Wob</a></li>
 			<li><a href="https://www.linkedin.com/company/watch-out-bitcoin" target="_blank">Linkedin</a></li>
 			<li><a href="https://www.instagram.com/Wo_Bitcoin" target="_blank">Instagram</a></li>
 			<li><a href="https://t.me/WoBitcoin" target="_blank">Telegram</a></li>
