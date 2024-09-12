@@ -1,6 +1,9 @@
 <footer class="footer">
 	<div class="footer__box footer__credits">
 		© Watch Out, BitCoin! 2024
+		+34680936011
+		Avda. México 10 p7 2A 
+		11405 Jerez (Cádiz)
 	</div>
 	<div class="footer__box">
 		<ul class="footer__list">
