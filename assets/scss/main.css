@@ -53,6 +53,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #F7931A;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }

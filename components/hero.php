@@ -27,7 +27,7 @@
 				<span>
 				Espacio Pablo VI, Madrid
 					<a href="https://www.openstreetmap.org/search?query=Espacio%20Pablo%20VI%2C%20Madrid" target="_blank">
-						<i class="fas fa-map-marker-alt"></i> View on map
+						<i class="fas fa-map-marker-alt"></i> Ver en mapa
 					</a>
 				</span>
 
