@@ -5,7 +5,7 @@
 			Avda. México 10 p7 2A 
 		</p>
 		<p >
-		11405 Jerez (Cádiz)
+		11405 Jerez (Cádiz), Spain
 		</p>
 	</div>
 
