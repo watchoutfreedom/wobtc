@@ -26,6 +26,14 @@ get_header(); ?>
 </div>
 <?php get_template_part('components/pricing'); ?>
 
+<div class="heading"  id="programa">
+	<h2 class="heading__title">Programa</h2>
+	<div class="heading__btns">
+		<a href="http://wobitcoin.org/wp-content/uploads/2024/09/WoB24_Draft_programa-_Horario_y_temario_propuesto.pdf" target="_blank">Ver programa [PDF]</a>
+	</div>
+</div>
+
+
 <div class="heading"  id="sponsor">
 	<h2 class="heading__title">Sponsors</h2>
 	<div class="heading__btns">
