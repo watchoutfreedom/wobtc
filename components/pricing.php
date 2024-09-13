@@ -11,6 +11,7 @@
 			<li><a href="https://wobitcoin.org/talleres/taller-de-custodia-de-bitcoin-con-sistemas-multifirma/">Taller de Custodia con Multifirma</a></li>
 			<li><a href="https://wobitcoin.org/talleres/taller-de-mineria/">Taller de Minería</a></li>
 			<li><a href="https://wobitcoin.org/talleres/taller-de-lightning-network/">Taller de Lightning Network</a></li>
+			<li><a href="https://wobitcoin.org/talleres/taller-de-lightning-network/">Taller Defi</a></li>
 		</ul>
 	</div>
 	<!-- talleres -->
