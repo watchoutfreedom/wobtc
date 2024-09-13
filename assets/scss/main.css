@@ -778,18 +778,21 @@ body {
 }
 
 .last__menu {
+  width: 100vw;
   text-align: center;
   padding: 8px 24px;
   position: sticky;
   z-index: 100;
   top: 0;
-  width: 100%;
   overflow-x: scroll;
   display: flex;
   justify-content: flex-start;
   font-family: "Overpass", sans-serif;
   background: #191919;
   color: white;
+}
+.last__menu a:last-child {
+  padding-right: 24px;
 }
 .last__menu a {
   text-decoration: none;

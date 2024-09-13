@@ -10,12 +10,12 @@
 }
 
 .last__menu {
+  width: 100vw;
   text-align: center;
   padding: 8px 24px;
   position: sticky;
   z-index: 100;
   top: 0;
-  width: 100%;
 
   overflow-x: scroll;
   display: flex;
@@ -24,6 +24,10 @@
   font-family: $font-cereal-m;
   background: #191919;
   color: white;
+
+  a:last-child {
+    padding-right: 24px;
+  }
 
 	a {
 		text-decoration: none;
