@@ -29,7 +29,7 @@ get_header(); ?>
 <div class="heading"  id="programa">
 	<h2 class="heading__title">Programa</h2>
 	<div class="heading__btns">
-		<a href="http://wobitcoin.org/wp-content/uploads/2024/09/WoB24_Draft_programa-_Horario_y_temario_propuesto.pdf" target="_blank">Ver programa [PDF]</a>
+		<a href="https://wobitcoin.org/talleres/programa/" target="_blank">Ver programa</a>
 	</div>
 </div>
 
