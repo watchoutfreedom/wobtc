@@ -50,6 +50,14 @@ html {
 }
 
 body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #F7931A;
+}
+
+body {
   font-family: "Inter", sans-serif;
 }
 
@@ -141,6 +149,10 @@ body {
 }
 
 .footer__credits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
   font-size: 12px;
   padding-top: 24px;
   opacity: 0.5;
@@ -232,7 +244,41 @@ body {
   height: 100%;
   background-position: center center;
   background-size: contain;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  bottom: 0;
+  overflow: hidden;
+}
+.hero__video video {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+  background-size: contain;
+}
+.hero__video:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Black with 0.6 opacity */
+  z-index: 6; /* Ensure it sits on top of the video */
+  pointer-events: none; /* Allows clicks to pass through the overlay */
 }
 
 .hero__meta {
@@ -603,6 +649,14 @@ body {
   height: 20px;
   min-width: 20px;
 }
+.pricing__list a {
+  display: block;
+  padding-left: 26px;
+  color: #F7931A;
+}
+.pricing__list a:hover {
+  color: black;
+}
 
 @media only screen and (min-width: 768px) {
   .pricing__card {
@@ -768,7 +822,8 @@ body {
   height: 100%;
   background-position: center center;
   background-size: contain;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 5;
 }
 
@@ -851,7 +906,7 @@ body {
   padding: 124px 0 0 0;
   margin-bottom: 124px;
   max-width: 1280px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .last__card {
@@ -1156,6 +1211,4 @@ body {
   border-right: 0.188rem solid var(--hot-two);
   border-bottom: 0.188rem solid transparent;
   border-top: 0.188rem solid var(--hot-two);
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

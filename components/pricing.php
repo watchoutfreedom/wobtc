@@ -1,12 +1,16 @@
 <div class="pricing">
 	<div class="pricing__box">
-		<div class="pricing__card">
+		<div class="pricing__card" id="talleres">
 			<div class="pricing__name">Talleres</div>
 			<div class="pricing__euros"><?php the_field('field_66b52d7679d81'); ?><span>€</span></div>
 			<div class="pricing__day">1 día (viernes)</div>
 		</div>
 		<ul class="pricing__list">
 			<li><?php get_template_part('icons/check'); ?>Acceso a Talleres (15-19 hs.)</li>
+			<li><?php get_template_part('icons/check'); ?>Elige una de estas tres opciones:</li>
+			<li><a href="https://wobitcoin.org/talleres/taller-de-custodia-de-bitcoin-con-sistemas-multifirma/">Taller de Custodia con Multifirma</a></li>
+			<li><a href="https://wobitcoin.org/talleres/taller-de-mineria/">Taller de Minería</a></li>
+			<li><a href="https://wobitcoin.org/talleres/taller-de-lightning-network/">Taller de Lightning Network</a></li>
 		</ul>
 	</div>
 	<!-- talleres -->

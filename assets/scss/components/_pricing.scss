@@ -45,8 +45,8 @@
 
 	li {	
 		display: flex;
-    padding-bottom: 23px;
-    line-height: 26px;
+		padding-bottom: 23px;
+		line-height: 26px;
 		padding-right: 28px;
 
 		svg {
@@ -56,7 +56,20 @@
 			min-width: 20px;
 		}
 	}
+
+	a {
+		display: block;
+		padding-left: 26px;
+		color: $color-primary;
+		// text-decoration: none;
+		&:hover {
+
+			color: black;
+
+		}
+	}
 }
+
 
 @media #{$breakpoints-medium} {
 	.pricing__card {

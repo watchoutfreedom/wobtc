@@ -8,8 +8,12 @@
 		<a href="#faq">FAQs</a>
 		<a href="#2023">Evento23</a>
 	</div>
-	<div class="hero__img">
-		<img src="<?php bloginfo('template_directory'); ?>/assets/img/hero_wobitcoin.jpg" alt="Fotografia del evento wobitcoin" />
+	<div class="hero__video">
+		<video autoplay muted loop playsinline>
+			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/webm">
+			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/mp4">
+			Tu navegador no soporta videos HTML5.
+		</video>
 	</div>
 	<div class="hero__content">
 		<div class="hero__header">
@@ -21,7 +25,13 @@
 		<div class="hero__message">
 			<div class="hero__subtitle">
 				<span>27, 28, y 29 de septiembre</span>
-				<span>Espacio Pablo VI, Madrid</span>
+				<span>
+				Espacio Pablo VI, Madrid
+					<a href="https://www.openstreetmap.org/search?query=Espacio%20Pablo%20VI%2C%20Madrid" target="_blank">
+						<i class="fas fa-map-marker-alt"></i> Ver en mapa
+					</a>
+				</span>
+
 			</div>
 			<h1 class="hero__title">
 				Descubre, aprende y comparte en el evento referencia sobre Bitcoin en español

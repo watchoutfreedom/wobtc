@@ -16,9 +16,19 @@
 }
 
 .footer__credits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
   font-size: 12px;
   padding-top: 24px;
   opacity: .5;
+}
+
+.footer__credits--address {
+
+
+
 }
 
 .footer__list {
