@@ -17,6 +17,9 @@
   top: 0;
   width: 100%;
 
+  display: flex;
+  justify-content: flex-start;
+
   font-family: $font-cereal-m;
   background: #191919;
   color: white;

@@ -784,6 +784,8 @@ body {
   z-index: 100;
   top: 0;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
   font-family: "Overpass", sans-serif;
   background: #191919;
   color: white;
