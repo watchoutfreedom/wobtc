@@ -16,7 +16,7 @@ Watch out, Bitcoin! es un evento presencial anual para hablar y debatir sobre Bi
     </div>
     <div class="answercont">
       <div class="answer">
-El evento se celebra del 27 al 29 de septiembre en Madrid, en el Espacio Pablo VI. La jornada del viernes está dedicada a talleres, y el sábado y domingo se realizarán los debates y paneles. El auditorio se encuentra en la zona universitaria de Madrid y hay plazas de aparcamiento gratuito en las proximidades. También hay una parada de metro cercana, "Vicente Aleixandre" (antigua Metropolitano).¿Cómo puedo comprar mi entrada? 
+El evento se celebra del 27 al 29 de septiembre en Madrid, en el Espacio Pablo VI. La jornada del viernes está dedicada a talleres, y el sábado y domingo se realizarán los debates y paneles. El auditorio se encuentra en la zona universitaria de Madrid y hay plazas de aparcamiento gratuito en las proximidades. También hay una parada de metro cercana, "Vicente Aleixandre" (antigua Metropolitano).
 
       </div>
     </div>
@@ -24,7 +24,7 @@ El evento se celebra del 27 al 29 de septiembre en Madrid, en el Espacio Pablo V
   
       <div class="container_box">
     <div class="question">
-¿Puedo hacerlo de manera anónima?
+    ¿Cómo puedo comprar mi entrada? ¿Puedo hacerlo de manera anónima?
     </div>
     <div class="answercont">
       <div class="answer">
