@@ -64,7 +64,7 @@ get_header(); ?>
 <div class="heading heading--bottom" id="media">
 	<h2 class="heading__title">Bitcoin Artists</h2>
 	<div class="heading__btns">
-		Descubre Bitcoin como tema artístico
+		Descubre su trabajo en el evento.
 	</div>
 </div>
 <?php get_template_part('components/artistas'); ?>
