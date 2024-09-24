@@ -7,7 +7,7 @@
 
   $artistas = get_posts($args);
   if ($artistas): 
-    foreach($medias as $artista):  setup_postdata( $artista );?>
+    foreach($artistas as $artista):  setup_postdata( $artista );?>
       <div class="sponsor__card">
         <div class="sponsor__content">
           <a href="<?php echo get_field("url",$artista->ID) ?>" class="sponsor__link" target="_blank">
