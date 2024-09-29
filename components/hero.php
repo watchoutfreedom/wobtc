@@ -34,11 +34,11 @@
 
 			</div>
 			<h1 class="hero__title">
-				Descubre, aprende y comparte en el evento referencia sobre Bitcoin en español
+				El evento referencia sobre Bitcoin en español. Ya disponibles entradas WOB'25.
 			</h1>
 			<div class="hero__btns">
 				<a href="#ponentes" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
-				<a href="https://www.tickettailor.com/events/wobitcoin/1176670" target="_blank" class="hero__link hero__link--c">Entrada en Euros</a>
+				<a href="https://www.tickettailor.com/events/wobitcoin/1411507" target="_blank" class="hero__link hero__link--c">Entrada en Euros</a>
 				<a href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/3cbvZfxYjUHfAsE9NFzNMRQxFM9w" target="_blank" class="hero__link hero__link--c hero__link--bitcoin">Entrada en Bitcoin</a>
 			</div>
 		</div>
