@@ -16,7 +16,7 @@ get_header(); ?>
 </div>
 
 <div class="heading" id="ponentes">
-	<h2 class="heading__title">Ponentes</h2>
+	<h2 class="heading__title">Ponentes 2024</h2>
 	<div class="heading__btns">
 		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a> -->
 	</div>
@@ -44,7 +44,7 @@ get_header(); ?>
 
 
 <div class="heading"  id="sponsor">
-	<h2 class="heading__title">Sponsors</h2>
+	<h2 class="heading__title">Sponsors 2024</h2>
 	<div class="heading__btns">
 		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser sponsor</a> -->
 	</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 <?php get_template_part('components/sponsor'); ?>
 
 <div class="heading heading--bottom" id="partner">
-	<h2 class="heading__title">Partners</h2>
+	<h2 class="heading__title">Partners 2024</h2>
 	<div class="heading__btns">
 		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser partner</a> -->
 	</div>
@@ -63,7 +63,7 @@ get_header(); ?>
 
 
 <div class="heading heading--bottom" id="media">
-	<h2 class="heading__title">Media Partners</h2>
+	<h2 class="heading__title">Media Partners 2024</h2>
 	<div class="heading__btns">
 		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser Media</a> -->
 	</div>
@@ -71,7 +71,7 @@ get_header(); ?>
 <?php get_template_part('components/media'); ?>
 
 <div class="heading heading--bottom" id="media">
-	<h2 class="heading__title">Bitcoin Artists</h2>
+	<h2 class="heading__title">Bitcoin Artists 2024</h2>
 	<div class="heading__btns">
 		Descubre su trabajo en el evento.
 	</div>
