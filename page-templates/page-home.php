@@ -11,8 +11,8 @@ get_header(); ?>
 <div class="heading heading--entradas" id="entradas">
 	<h2 class="heading__title">OG Entradas 2025<span></span></h2>
 	<div class="heading__btns">
-		<a href="https://buytickets.at/wobitcoin/1411507" target="_blank">Comprar en Euros</a>
-		<a class="heading__btns--bitcoin" href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/Uh94CGZJqCbUXTN74KpkSPUrDsL" target="_blank">Comprar en Bitcoin</a>	
+		<a href="https://buytickets.at/wobitcoin/1411507" target="_blank">Comprar en Euros '25</a>
+		<a class="heading__btns--bitcoin" href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/Uh94CGZJqCbUXTN74KpkSPUrDsL" target="_blank">Comprar en Bitcoin '25</a>	
 	</div>
 </div>
 
