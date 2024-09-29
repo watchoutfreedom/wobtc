@@ -34,7 +34,7 @@
 
 			</div>
 			<h1 class="hero__title">
-				Ya disponibles entradas WOB'25.
+				Ya disponibles entradas OG WOB'25.
 			</h1>
 			<div class="hero__btns">
 				<a href="#ponentes" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
