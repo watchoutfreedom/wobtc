@@ -16,12 +16,16 @@ get_header(); ?>
 	</div>
 </div>
 
+
 <div class="heading" id="ponentes">
-	<h2 class="heading__title">Ponentes 2024</h2>
+	<h2 class="heading__title">Únete a la Red Wob!</h2>
 	<div class="heading__btns">
 		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a> -->
 	</div>
 </div>
+
+<iframe src="https://help.wobitcoin.org/es/Embbed/9" width="100%" height="800px" overflow="scroll" frameborder="0"></iframe>
+
 
 <?php get_template_part('components/ponentes'); ?>
 
