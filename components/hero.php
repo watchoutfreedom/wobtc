@@ -8,13 +8,11 @@
 		<a href="#faq">FAQs</a>
 		<a href="#2023">Evento23</a>
 	</div>
-	<div class="hero__video">
-		<video autoplay muted loop playsinline>
-			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/webm">
-			<source src="<?php bloginfo('template_directory'); ?>/assets/video/2a3288.webm" type="video/mp4">
-			Tu navegador no soporta videos HTML5.
-		</video>
+
+	<div class="hero__img">
+		<img src="<?php bloginfo('template_directory'); ?>/assets/img/wob25_01_promo_nologo.jpg" alt="Fotografia del evento wobitcoin" />
 	</div>
+
 	<div class="hero__content">
 		<div class="hero__header">
 			<div class="hero__logo">
