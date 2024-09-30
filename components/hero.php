@@ -22,7 +22,7 @@
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle">
-				<span>Fecha y lugar 2025 por definir</span>
+				<span>3, 4 y 5 de octubre de 2025</span>
 				<span>
 	
 				</span>
