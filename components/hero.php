@@ -22,12 +22,9 @@
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle">
-				<span>27, 28, y 29 de septiembre</span>
+				<span>Fecha y lugar 2025 por definir</span>
 				<span>
-				Espacio Pablo VI, Madrid
-					<a href="https://www.openstreetmap.org/search?query=Espacio%20Pablo%20VI%2C%20Madrid" target="_blank">
-						<i class="fas fa-map-marker-alt"></i> Ver en mapa
-					</a>
+	
 				</span>
 
 			</div>
