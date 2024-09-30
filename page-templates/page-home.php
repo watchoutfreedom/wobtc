@@ -17,16 +17,6 @@ get_header(); ?>
 </div>
 
 
-<div class="heading" id="ponentes">
-	<h2 class="heading__title">Únete a la Red Wob!</h2>
-	<div class="heading__btns">
-		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a> -->
-	</div>
-</div>
-
-<iframe src="https://help.wobitcoin.org/es/Embbed/9" width="100%" height="800px" overflow="scroll" frameborder="0"></iframe>
-
-
 <?php get_template_part('components/ponentes'); ?>
 
 <div class="heading heading--entradas" id="entradas">
@@ -39,9 +29,19 @@ get_header(); ?>
 </div>
 <?php get_template_part('components/pricing'); ?>
 
+<div class="heading" id="red">
+	<h2 class="heading__title">Publicaciones en la Red Wob!</h2>
+	<div class="heading__btns">
+		<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0-fwY0o65VI3YDfPkOtYn4jp-ye0hslGhrkKQboI3wfaC1A/viewform" target="_blank">Quiero ser ponente</a> -->
+	</div>
+</div>
+
+<div class="ponentes">
+<iframe src="https://help.wobitcoin.org/es/Embbed/9" width="100%" height="800px" overflow="scroll" frameborder="0"></iframe>
+</div>
 
 <div class="heading"  id="programa">
-	<h2 class="heading__title">Programa</h2>
+	<h2 class="heading__title">Programa 2024</h2>
 	<div class="heading__btns">
 		<a href="https://wobitcoin.org/talleres/programa/" target="_blank">Ver programa</a>
 	</div>
@@ -82,6 +82,8 @@ get_header(); ?>
 	</div>
 </div>
 <?php get_template_part('components/artistas'); ?>
+
+
 
 <div class="heading heading--bottom" id="faq">
 	<h2 class="heading__title">FAQs</h2>
