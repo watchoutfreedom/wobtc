@@ -1,6 +1,6 @@
 <footer class="footer">
 	<div class="footer__box footer__credits">
-		<p >© Watch Out, BitCoin! 2024</p>
+		<p >© Watch Out, BitCoin! 2025</p>
 		<p >
 			Avda. México 10
 		</p>
