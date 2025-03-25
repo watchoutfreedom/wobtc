@@ -8,37 +8,38 @@ get_header(); ?>
   <h1>Agenda example</h1>
   <h2>Viernes, 27 de septiembre</h2>
   <?php
-if (have_posts()) :
-    while (have_posts()) : the_post();
-        // Obtener el grupo de campos utilizando la clave del grupo
-        $grupo_campos = get_field('field_67e2f16d40617'); 
+    // Asegúrate de estar en el bucle de WordPress
+    if (have_posts()) :
+        while (have_posts()) : the_post();
+            // Obtener el grupo de campos utilizando el nombre del grupo (en lugar del field key)
+            $grupo_campos = get_field('viernes'); // Cambia 'nombre_del_grupo' por el nombre correcto del grupo
 
-        // Verifica si el grupo de campos tiene contenido
-        if ($grupo_campos) {
-            // Obtener los valores de los campos dentro del grupo
-            $campo1 = $grupo_campos['field_67e2f17840618']; // Campo 1
-            $campo2 = $grupo_campos['field_67e2f19a40619']; // Campo 2
-            $campo3 = $grupo_campos['field_67e2f1a44061a']; // Campo 3
+            // Verifica si el grupo de campos tiene contenido
+            if ($grupo_campos) {
+                // Mostrar los valores dentro de una lista <ul>
+                echo '<ul>';
 
-            // Mostrar los valores si existen
-            if ($campo1) {
-                echo '<p>Campo 1: ' . esc_html($campo1) . '</p>';
+                // Acceder y mostrar cada uno de los subcampos dentro del grupo
+                if (isset($grupo_campos['field_67e2f17840618'])) {
+                    echo '<li>' . esc_html($grupo_campos['field_67e2f17840618']) . '</li>'; // Campo 1
+                }
+
+                if (isset($grupo_campos['field_67e2f19a40619'])) {
+                    echo '<li>' . esc_html($grupo_campos['field_67e2f19a40619']) . '</li>'; // Campo 2
+                }
+
+                if (isset($grupo_campos['field_67e2f1a44061a'])) {
+                    echo '<li>' . esc_html($grupo_campos['field_67e2f1a44061a']) . '</li>'; // Campo 3
+                }
+
+                echo '</ul>';
+            } else {
+                echo '<p>No se encontraron datos del grupo de campos.</p>';
             }
-
-            if ($campo2) {
-                echo '<p>Campo 2: ' . esc_html($campo2) . '</p>';
-            }
-
-            if ($campo3) {
-                echo '<p>Campo 3: ' . esc_html($campo3) . '</p>';
-            }
-        } else {
-            echo '<p>No se encontraron datos del grupo de campos.</p>';
-        }
-    endwhile;
-else :
-    echo '<p>No se encontraron publicaciones.</p>';
-endif;
+        endwhile;
+    else :
+        echo '<p>No se encontraron publicaciones.</p>';
+    endif;
 ?>
 
 </div>
