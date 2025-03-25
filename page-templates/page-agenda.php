@@ -7,37 +7,21 @@ get_header(); ?>
 <div class="wrap">
   <h1>Agenda example</h1>
   <h2>Viernes, 27 de septiembre</h2>
+
   <?php 
-// Check rows exists.
-if( have_rows('field_67e2f16d40617') ):
+$rows = get_field('field_67e2f16d40617'); // Reemplaza 'repeater_field_name' con el nombre de tu campo repetidor
 
-    // Loop through rows.
-    while( have_rows('field_67e2f16d40617') ) : the_row();
-
-        // Load sub field value.
-        $sub_value = get_sub_field('field_67e2f17840618');
-        // Do something, but make sure you escape the value if outputting directly...
-
-    // End loop.
-    endwhile;
-
-// No value.
-else :
-    // Do something...
-endif;
+if( $rows ) {
+    echo '<ul class="slides">'; // Clase opcional para la lista
+    foreach( $rows as $row ) {
+        $texto = $row['field_67e2f17840618']; // Reemplaza 'texto' con el nombre del subcampo donde guardas el texto
+        echo '<li>';
+            echo esc_html( $texto ); // Muestra el texto de manera segura
+        echo '</li>';
+    }
+    echo '</ul>';
+}
 ?>
-
-<?php if( have_rows('field_67e2f16d40617') ): ?>
-    <ul class="slides">
-    <?php while( have_rows('field_67e2f16d40617') ): the_row(); 
-        $image = get_sub_field('field_67e2f17840618');
-        ?>
-        <li>
-            <?php the_field('field_67e2f17840618'); ?>
-        </li>
-    <?php endwhile; ?>
-    </ul>
-<?php endif; ?>
 
 </div>
 
