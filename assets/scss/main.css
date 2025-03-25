@@ -1094,6 +1094,7 @@ body {
 .day .content .title {
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 2px;
 }
 .day .content p {
   opacity: 0.8;

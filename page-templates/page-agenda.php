@@ -5,7 +5,6 @@
 
 get_header(); ?>
 <div class="wrap">
-  <h1>Agenda example</h1>
   <h2 class="day-title">Viernes, 27 de septiembre</h2>
   <?php 
     $rows = get_field('viernes');
