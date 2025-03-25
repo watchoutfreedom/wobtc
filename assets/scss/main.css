@@ -1096,12 +1096,17 @@ body {
   font-family: "Overpass", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
 }
 .day .content p {
   font-family: "Overpass", sans-serif;
   opacity: 0.8;
   font-size: 15px;
+}
+.day .content ul,
+.day .content li {
+  padding: 0;
+  margin: 0;
 }
 
 .single {

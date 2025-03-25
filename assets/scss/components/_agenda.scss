@@ -37,14 +37,19 @@
       font-family: $font-cereal;
       font-size: 18px;
       font-weight: bold;
-      margin-bottom: 2px;
+      margin-bottom: 6px;
     }
 
     p {
       font-family: $font-cereal-m;
-
       opacity: 0.8;
       font-size: 15px;
+    }
+
+    ul,
+    li {
+      padding: 0;
+      margin: 0;
     }
   }
 }
