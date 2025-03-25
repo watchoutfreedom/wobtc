@@ -21,7 +21,7 @@ get_header(); ?>
                     echo '<div class="time">' . esc_html( $hora ) . '</div>';
                 }
                 if( !empty($titulo) ) {
-                    echo '<div class="content"><h3>' . esc_html( $titulo ) . '</h3>'; 
+                  echo '<div class="content"><h3 class="title">' . esc_html( $titulo ) . '</h3>'; 
                 }
                 if( !empty($descripcion) ) {
                     echo '<p><strong>Descripción:</strong> ' . esc_html( $descripcion ) . '</p></div>'; 
@@ -34,7 +34,7 @@ get_header(); ?>
 
 
 <h2 class="day-title">Sábado, 28 de septiembre</h2>
-  <?php 
+<?php 
     $rows = get_field('sabado');
 
     if( $rows ) {
@@ -48,10 +48,10 @@ get_header(); ?>
                     echo '<div class="time">' . esc_html( $hora ) . '</div>';
                 }
                 if( !empty($titulo) ) {
-                    echo '<div class="content"><h3>' . esc_html( $titulo ) . '</h3>'; 
+                    echo '<div class="content"><h3 class="title">' . esc_html( $titulo ) . '</h3>'; 
                 }
                 if( !empty($descripcion) ) {
-                    echo '<p><strong>Descripción:</strong> ' . esc_html( $descripcion ) . '</p></div>'; 
+                  echo '<p>' . esc_html( $descripcion ) . '</p></div>'; 
                 }
             echo '</li>';
         }
@@ -75,10 +75,10 @@ get_header(); ?>
                     echo '<div class="time">' . esc_html( $hora ) . '</div>';
                 }
                 if( !empty($titulo) ) {
-                    echo '<div class="content"><h3>' . esc_html( $titulo ) . '</h3>'; 
+                  echo '<div class="content"><h3 class="title">' . esc_html( $titulo ) . '</h3>'; 
                 }
                 if( !empty($descripcion) ) {
-                    echo '<p><strong>Descripción:</strong> ' . esc_html( $descripcion ) . '</p></div>'; 
+                  echo '<p>' . esc_html( $descripcion ) . '</p></div>'; 
                 }
             echo '</li>';
         }

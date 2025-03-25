@@ -27,13 +27,18 @@
     flex: 0 1 25%;
   }
 
-  .title {
-    font-size: 18px;
-    font-weight: bold;
-  }
+
 
   .content {
     flex: 0 1 85%;
-    opacity: .8;
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    p {
+      opacity: 0.8;
+    }
   }
 }
