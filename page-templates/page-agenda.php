@@ -8,24 +8,24 @@ get_header(); ?>
   <h1>Agenda example</h1>
   <h2>Viernes, 27 de septiembre</h2>
   <?php 
-    $grupo_campos = get_field('field_67e2f16d40617');
+// Check rows exists.
+if( have_rows('field_67e2f16d40617') ):
 
-    if ($grupo_campos): ?>
-        <ul class="campos-grupo">
-            <?php 
-            if (!empty($grupo_campos['field_67e2f17840618'])): ?>
-                <li><?php echo esc_html($grupo_campos['field_67e2f17840618']); ?></li>
-            <?php endif; ?>
-            
-            <?php if (!empty($grupo_campos['field_67e2f19a40619'])): ?>
-                <li><?php echo esc_html($grupo_campos['field_67e2f19a40619']); ?></li>
-            <?php endif; ?>
-            
-            <?php if (!empty($grupo_campos['field_67e2f1a44061a'])): ?>
-                <li><?php echo esc_html($grupo_campos['field_67e2f1a44061a']); ?></li>
-            <?php endif; ?>
-        </ul>
-<?php endif; ?>
+    // Loop through rows.
+    while( have_rows('field_67e2f16d40617') ) : the_row();
+
+        // Load sub field value.
+        $sub_value = get_sub_field('field_67e2f17840618');
+        // Do something, but make sure you escape the value if outputting directly...
+
+    // End loop.
+    endwhile;
+
+// No value.
+else :
+    // Do something...
+endif;
+?>
 
 </div>
 
