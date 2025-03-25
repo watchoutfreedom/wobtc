@@ -5,14 +5,16 @@
 }
 
 .day {
-  display: flex;
   background: #f0f0f0;
   padding: 48px;
 
   li {
+    margin-bottom: 4px;
     background: white;
     padding: 12px;
     border-radius: 8px;
+    display: flex;
+    flex-flow: row nowrap;
   }
 
   div:first:child {
