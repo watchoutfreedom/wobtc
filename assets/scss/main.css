@@ -1061,6 +1061,12 @@ body {
   line-height: 1.5rem;
 }
 
+.wrap {
+  margin: 20% auto;
+  width: 90%;
+  max-width: 980px;
+}
+
 .single {
   width: 90%;
   margin: 100px auto;
