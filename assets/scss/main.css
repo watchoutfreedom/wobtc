@@ -1067,6 +1067,23 @@ body {
   max-width: 1280px;
 }
 
+.day {
+  display: flex;
+  background: #f0f0f0;
+  padding: 48px;
+}
+.day li {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+.day div:first:child {
+  flex: 0 1 25%;
+}
+.day div {
+  flex: 0 1 85%;
+}
+
 .single {
   width: 90%;
   margin: 100px auto;

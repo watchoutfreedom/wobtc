@@ -3,3 +3,22 @@
   width: 90%;
   max-width: 1280px;
 }
+
+.day {
+  display: flex;
+  background: #f0f0f0;
+  padding: 48px;
+
+  li {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  div:first:child {
+    flex: 0 1 25%;
+  }
+  div {
+    flex: 0 1 85%;
+  }
+}
