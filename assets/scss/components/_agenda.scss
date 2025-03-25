@@ -17,10 +17,11 @@
     flex-flow: row nowrap;
   }
 
-  div:first:child {
+  .time {
     flex: 0 1 25%;
   }
-  div {
+  
+  .content {
     flex: 0 1 85%;
   }
 }

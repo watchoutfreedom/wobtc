@@ -18,10 +18,10 @@ get_header(); ?>
             $descripcion = $row['descripcion']; 
             echo '<li>';
                 if( !empty($hora) ) {
-                    echo '<div><strong>Hora:</strong> ' . esc_html( $hora ) . '</div>';
+                    echo '<div class="time">' . esc_html( $hora ) . '</div>';
                 }
                 if( !empty($titulo) ) {
-                    echo '<div><h3>' . esc_html( $titulo ) . '</h3>'; 
+                    echo '<div class="content"><h3>' . esc_html( $titulo ) . '</h3>'; 
                 }
                 if( !empty($descripcion) ) {
                     echo '<p><strong>Descripción:</strong> ' . esc_html( $descripcion ) . '</p></div>'; 

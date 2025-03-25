@@ -1079,10 +1079,10 @@ body {
   display: flex;
   flex-flow: row nowrap;
 }
-.day div:first:child {
+.day .time {
   flex: 0 1 25%;
 }
-.day div {
+.day .content {
   flex: 0 1 85%;
 }
 
