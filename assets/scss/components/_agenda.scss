@@ -26,11 +26,14 @@
 
   .time {
     flex: 0 1 25%;
+    font-size: 14px;
+    opacity: .8;
   }
 
 
 
   .content {
+    line-height: 22px;
     flex: 0 1 85%;
 
     .title {
@@ -48,6 +51,7 @@
 
     ul,
     li {
+      display: blocK,
       padding: 0;
       margin: 0;
     }
