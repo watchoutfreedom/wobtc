@@ -8,8 +8,6 @@ get_header(); ?>
   <h1>Agenda example</h1>
   <h2>Viernes, 27 de septiembre</h2>
   <?php
-<?php
-// Asegúrate de estar en el bucle de WordPress
 if (have_posts()) :
     while (have_posts()) : the_post();
         // Obtener el grupo de campos utilizando la clave del grupo
@@ -42,7 +40,7 @@ else :
     echo '<p>No se encontraron publicaciones.</p>';
 endif;
 ?>
-  
+
 </div>
 
 <?php get_footer(); ?>
