@@ -24,9 +24,12 @@
   }
 
   .time {
+    flex: 0 1 25%;
+  }
+
+  .title {
     font-size: 18px;
     font-weight: bold;
-    flex: 0 1 25%;
   }
 
   .content {
