@@ -27,6 +27,18 @@ else :
 endif;
 ?>
 
+<?php if( have_rows('field_67e2f16d40617') ): ?>
+    <ul class="slides">
+    <?php while( have_rows('field_67e2f16d40617') ): the_row(); 
+        $image = get_sub_field('field_67e2f17840618');
+        ?>
+        <li>
+            <?php the_field('field_67e2f17840618'); ?>
+        </li>
+    <?php endwhile; ?>
+    </ul>
+<?php endif; ?>
+
 </div>
 
 <?php get_footer(); ?>
