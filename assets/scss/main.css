@@ -1067,7 +1067,13 @@ body {
   max-width: 1280px;
 }
 
+.day-title {
+  font-weight: bold;
+  margin: 24px 0 12px 0;
+}
+
 .day {
+  margin: 24px 0;
   background: #f0f0f0;
   padding: 48px;
 }
@@ -1080,10 +1086,13 @@ body {
   flex-flow: row nowrap;
 }
 .day .time {
+  font-size: 18px;
+  font-weight: bold;
   flex: 0 1 25%;
 }
 .day .content {
   flex: 0 1 85%;
+  opacity: 0.8;
 }
 
 .single {
