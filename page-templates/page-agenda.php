@@ -5,7 +5,7 @@
 
 get_header(); ?>
 <div class="wrap">
-  <h2 class="day-title">Viernes, 27 de septiembre</h2>
+  <h2 class="day-title">Viernes, 3 de octubre</h2>
   <?php 
     $rows = get_field('viernes');
 
@@ -32,7 +32,7 @@ get_header(); ?>
     ?>
 
 
-<h2 class="day-title">Sábado, 28 de septiembre</h2>
+<h2 class="day-title">Sábado, 4 de octubre</h2>
 <?php 
     $rows = get_field('sabado');
 
@@ -59,7 +59,7 @@ get_header(); ?>
     ?>
 
 
-<h2 class="day-title">Domingo, 29 de septiembre</h2>
+<h2 class="day-title">Domingo, 5 de octubre</h2>
   <?php 
     $rows = get_field('domingo');
 
