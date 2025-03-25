@@ -7,22 +7,30 @@ get_header(); ?>
 <div class="wrap">
   <h1>Agenda example</h1>
   <h2>Viernes, 27 de septiembre</h2>
-
   <?php 
-$rows = get_field('viernes'); // Reemplaza 'repeater_field_name' con el nombre de tu campo repetidor
+    $rows = get_field('viernes');
 
-if( $rows ) {
-    echo '<ul class="slides">'; // Clase opcional para la lista
-    foreach( $rows as $row ) {
-        $texto = $row['hora']; // Reemplaza 'texto' con el nombre del subcampo donde guardas el texto
-        echo '<li>';
-            echo esc_html( $texto ); // Muestra el texto de manera segura
-        echo '</li>';
+    if( $rows ) {
+        echo '<ul class="slides">';
+        foreach( $rows as $row ) {
+            $hora = $row['hora'];
+            $titulo = $row['titulo']; 
+            $descripcion = $row['descripcion']; 
+            echo '<li>';
+                if( !empty($titulo) ) {
+                    echo '<h3>' . esc_html( $titulo ) . '</h3>'; 
+                }
+                if( !empty($hora) ) {
+                    echo '<p><strong>Hora:</strong> ' . esc_html( $hora ) . '</p>';
+                }
+                if( !empty($descripcion) ) {
+                    echo '<p><strong>Descripción:</strong> ' . esc_html( $descripcion ) . '</p>'; 
+                }
+            echo '</li>';
+        }
+        echo '</ul>';
     }
-    echo '</ul>';
-}
-?>
-
+    ?>
 </div>
 
 <?php get_footer(); ?>
