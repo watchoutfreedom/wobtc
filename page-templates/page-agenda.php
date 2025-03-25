@@ -50,7 +50,7 @@ get_header(); ?>
                     echo '<div class="content"><h3 class="title">' . esc_html( $titulo ) . '</h3>'; 
                 }
                 if( !empty($descripcion) ) {
-                  echo '<p>' . esc_html( $descripcion ) . '</p></div>'; 
+                  echo '<p>' . wp_kses_post( $descripcion ) . '</p></div>'; 
                 }
             echo '</li>';
         }
