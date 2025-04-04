@@ -6,8 +6,8 @@
     if( $rows ) {
         echo '';
         foreach( $rows as $row ) {
-            $pregunta = $row['field_67efdbe3f7793'];
-            $respuesta = $row['field_67efdbe8f7794']; 
+            $pregunta = $row['pregunta'];
+            $respuesta = $row['respuesta']; 
             echo '<div class="container_box">';
                 if( !empty($pregunta) ) {
                     echo '<div class="question">' . esc_html( $pregunta ) . '</div>';
