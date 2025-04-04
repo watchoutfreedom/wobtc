@@ -6,14 +6,14 @@
     if( $rows ) {
         echo '';
         foreach( $rows as $row ) {
-            $pregunta = $row['pregunta'];
-            $respuesta = $row['respuesta']; 
+            $pregunta = $row['field_67efdbe3f7793'];
+            $respuesta = $row['field_67efdbe8f7794']; 
             echo '<div class="container_box">';
-                if( !empty($hora) ) {
+                if( !empty($pregunta) ) {
                     echo '<div class="question">' . esc_html( $pregunta ) . '</div>';
                 }
-                if( !empty($titulo) ) {
-                  echo '<div class="answercont"><div class="answer">' . esc_html( $respuesta ) . '</div></div>'; 
+                if( !empty($respuesta) ) {
+                  echo '<div class="answercont"><div class="answer">' . wp_kses_post( $respuesta ) . '</div></div>'; 
                 }
             echo '</div>';
         }
