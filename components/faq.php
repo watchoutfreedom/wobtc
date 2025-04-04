@@ -1,6 +1,5 @@
 
 <div class="wrapper">  
-  <div class="container_box">
 <?php 
     $rows = get_field('faq');
 
