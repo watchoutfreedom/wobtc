@@ -29,7 +29,7 @@
 			</h1>
 			<div class="hero__btns">
 				<a href="#ponentes" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
-				<a href="<?php the_field('field_67efd93f0d330'); ?>" target="_blank" class="hero__link hero__link--c">Entrada '25 en Euros</a>
+				<a href="<?php the_field('field_67efd98d0d332'); ?>" target="_blank" class="hero__link hero__link--c">Entrada '25 en Euros</a>
 				<a href="<?php the_field('field_67efd9b70d333'); ?>" target="_blank" class="hero__link hero__link--c hero__link--bitcoin">Entrada '25 en Bitcoin</a>
 			</div>
 		</div>
