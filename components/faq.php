@@ -1,25 +1,28 @@
 
 <div class="wrapper">  
 <?php 
-    $rows = get_field('faq');
+$rows = get_field('faq');
 
-    if( $rows ) {
-        echo '';
-        foreach( $rows as $row ) {
-            $pregunta = $row['pregunta'];
-            $respuesta = $row['respuesta']; 
-            echo '<div class="container_box">';
-                if( !empty($pregunta) ) {
-                    echo '<div class="question">' . esc_html( $pregunta ) . '</div>';
-                }
-                if( !empty($respuesta) ) {
-                  echo '<div class="answercont"><div class="answer">' . wp_kses_post( $respuesta ) . '</div></div>'; 
-                }
-            echo '</div>';
+if ( !empty($rows) ) { 
+    foreach ($rows as $row) {
+        $pregunta = $row['pregunta'] ?? ''; 
+        $respuesta = $row['respuesta'] ?? '';
+
+        echo '<div class="container_box">';
+        
+        if ( !empty($pregunta) ) {
+            echo '<div class="question">' . esc_html($pregunta) . '</div>';
         }
-        echo '';
+
+        if ( !empty($respuesta) ) {
+            echo '<div class="answercont"><div class="answer">' . wp_kses_post($respuesta) . '</div></div>';
+        }
+
+        echo '</div>';
     }
-    ?>
+}
+?>
+
 </div>
 
 
