@@ -22,16 +22,8 @@
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle hero__subtitle">
-
 				<span>
-				<?php 
-$grupo = the_field('field_67efd9320d32f'); // Obtiene el grupo de campos, NO imprime
-if ($grupo && isset($grupo['field_67efd93f0d330'])) { 
-    echo esc_html($grupo['field_67efd93f0d330']); // Imprime el campo de texto correcto
-} else {
-    echo "Campo vacío o no encontrado.";
-}
-?>
+					<?php var_dump(get_field('field_67efd93f0d330')); ?>
 				</span>
 			</div>
 			<h1 class="hero__title">
