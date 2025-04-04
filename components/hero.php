@@ -23,7 +23,7 @@
 		<div class="hero__message">
 			<div class="hero__subtitle hero__subtitle">
 				<span>
-					<?php the_field('field_67efd93f0d330'); ?>
+					3, 4 y 5 de octubre de 2025
 				</span>
 			</div>
 			<h1 class="hero__title">
