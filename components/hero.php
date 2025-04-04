@@ -24,9 +24,9 @@
 			<div class="hero__subtitle hero__subtitle">
 				<span>
 				<?php 
-					$grupo = get_field('field_67efd9320d32f'); 
+					$grupo = get_field('field_67efd93f0d330'); 
 					if ($grupo) {
-							echo esc_html($grupo['field_67efd93f0d330']);
+							echo esc_html($grupo['field_67efd9320d32f']);
 					}
 					?>
 				</span>
