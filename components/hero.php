@@ -22,19 +22,20 @@
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle">
-				<span>3, 4 y 5 de octubre de 2025</span>
+				<span><?php the_field('field_67efd93f0d330'); ?></span>
 				<span>
 	
 				</span>
 
 			</div>
 			<h1 class="hero__title">
-				Ya disponibles entradas Early Bird WOB'25.
+				
+				<?php the_field('field_67efd95d0d331'); ?>
 			</h1>
 			<div class="hero__btns">
 				<a href="#ponentes" class="hero__link hero__link--arrow"><?php get_template_part('icons/arrow'); ?><span>Saber más</span></a>
-				<a href="https://www.tickettailor.com/events/wobitcoin/1411507" target="_blank" class="hero__link hero__link--c">Entrada '25 en Euros</a>
-				<a href="https://pagos.dinerosinreglas.com/plugins/TicketTailor/3Kct7ERLTpN2BAuytyCBVTZx88Hb" target="_blank" class="hero__link hero__link--c hero__link--bitcoin">Entrada '25 en Bitcoin</a>
+				<a href="<?php the_field('field_67efd93f0d330'); ?>" target="_blank" class="hero__link hero__link--c">Entrada '25 en Euros</a>
+				<a href="<?php the_field('field_67efd9b70d333'); ?>" target="_blank" class="hero__link hero__link--c hero__link--bitcoin">Entrada '25 en Bitcoin</a>
 			</div>
 		</div>
 	</div>
