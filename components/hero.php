@@ -23,13 +23,8 @@
 		<div class="hero__message">
 			<div class="hero__subtitle">
 				<span><?php the_field('field_67efd93f0d330'); ?></span>
-				<span>
-	
-				</span>
-
 			</div>
 			<h1 class="hero__title">
-				
 				<?php the_field('field_67efd95d0d331'); ?>
 			</h1>
 			<div class="hero__btns">
