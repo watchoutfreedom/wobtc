@@ -21,7 +21,7 @@
 			<div class="hero__meta"></div>
 		</div>
 		<div class="hero__message">
-			<div class="hero__subtitle">
+			<div class="hero__subtitle hero__subtitle">
 				<span><?php the_field('field_67efd93f0d330'); ?></span>
 			</div>
 			<h1 class="hero__title">
