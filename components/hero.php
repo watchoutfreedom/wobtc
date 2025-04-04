@@ -22,7 +22,14 @@
 		</div>
 		<div class="hero__message">
 			<div class="hero__subtitle hero__subtitle">
-				<span><?php the_field('fecha'); ?></span>
+				<span>
+				<?php 
+					$grupo = get_field('field_67efd9320d32f'); 
+					if ($grupo) {
+							echo esc_html($grupo['field_67efd93f0d330']);
+					}
+					?>
+				</span>
 			</div>
 			<h1 class="hero__title">
 				<?php the_field('field_67efd95d0d331'); ?>
